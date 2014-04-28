@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Krebs on Security</title>
+	<atom:link href="http://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://krebsonsecurity.com</link>
+	<description>In-depth security news and investigation</description>
+	<lastBuildDate>Sun, 22 Dec 2013 21:15:15 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8</generator>
+	<item>
+		<title>Non-US Cards Used At Target Fetch Premium</title>
+		<link>http://krebsonsecurity.com/2013/12/non-us-cards-used-at-target-fetch-premium/</link>
+		<comments>http://krebsonsecurity.com/2013/12/non-us-cards-used-at-target-fetch-premium/#comments</comments>
+		<pubDate>Sun, 22 Dec 2013 17:01:31 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Barbarossa base]]></category>
+		<category><![CDATA[rescator]]></category>
+		<category><![CDATA[target breach]]></category>
+		<category><![CDATA[Target credit card breach]]></category>
+		<category><![CDATA[Target hack]]></category>
+		<category><![CDATA[tortuga]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=24132</guid>
+		<description><![CDATA[An underground service that is selling credit and debit card accounts stolen in a recent data breach at retail giant Target has stocked its virtual shelves with a new product: Hundreds of thousands of cards issued by non-U.S. banks that were used at Target across the United States during the retailer's 19-day data breach. It's not clear how quickly the non-U.S. cards are selling, but they seem to be fetching a much higher price than those issued by U.S. banks.]]></description>
+				<content:encoded><![CDATA[<p>An underground service that is selling credit and debit card accounts stolen in a recent data breach at retail giant <strong>Target</strong> has stocked its virtual shelves with a new product: Hundreds of thousands of cards issued by non-U.S. banks that were used at Target across the United States during the retailer&#8217;s 19-day data breach. It&#8217;s not clear how quickly the non-U.S. cards are selling, but they seem to be fetching a much higher price than those issued by U.S. banks.</p>
+<p>On Dec. 20, this blog published <a title="http://krebsonsecurity.com/2013/12/cards-stolen-in-target-breach-flood-underground-markets/" href="http://krebsonsecurity.com/2013/12/cards-stolen-in-target-breach-flood-underground-markets/" target="_blank">a story</a> about the &#8220;card shop&#8221; <strong>rescator[dot]la</strong>. That piece explained how two different banks &#8212; a small, community bank and a large, top-10 bank &#8212; had bought back their customers&#8217; stolen cards from the fraud service and discovered that all of the purchased cards had been used at Target during the breach timeframe. The shop was selling data stolen from the magnetic stripe of each card, which thieves can re-encode onto new, counterfeit cards and use to go shopping in bricks-and-mortar stores for items than can easily be fenced or resold.</p>
+<p>As I wrote in that story, a key feature of this particular shop is that each card is assigned to a particular “base.” This term is underground slang that refers to an arbitrary code word chosen to describe all of the cards stolen from a specific merchant. In this case, my source at the big bank had said all of the cards his team purchased from this card shop that matched Target’s N0v. 27 – Dec. 15 breach window bore the base name <strong>Tortuga</strong>, which is Spanish for “tortoise” or “turtle&#8221; (also an island in the Caribbean <a title="http://pirates.wikia.com/wiki/Tortuga" href="http://pirates.wikia.com/wiki/Tortuga" target="_blank">long associated with pirates</a>). The small bank similarly found that all of the cards it purchased from the card shop also bore the Tortuga base name, and all had been used at Target.</p>
+<div id="attachment_24136" style="width: 295px" class="wp-caption alignleft"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/resc-base.png"><img class="size-medium wp-image-24136" alt="Cards stolen from non-US customers who shopped at Target are sold under the &quot;Barbarossa&quot; base." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/resc-base-285x356.png" width="285" height="356" /></a><p class="wp-caption-text">Cards stolen from non-US customers who shopped at Target are sold under the &#8220;Barbarossa&#8221; base.</p></div>
+<p>On Friday, the proprietor of this card shop announced the availability of a new base &#8212; &#8220;<strong>Barbarossa</strong>&#8221; &#8212; which consists of more than 330,000 debit and credit cards issued by banks in Europe, Asia, Latin America and Canada [side note: one Russian expert I spoke with said Barbarossa was probably a reference to <a title="http://en.wikipedia.org/wiki/Operation_Barbarossa" href="http://en.wikipedia.org/wiki/Operation_Barbarossa" target="_blank">Operation Barbarossa</a>, the code name for Germany's invasion of the Soviet Union during World War II].</p>
+<p>According to one large bank in the U.S. that purchased a sampling of cards across several countries &#8212; <em>all of the cards in the Barbarossa base also were used at Target during the breach timeframe</em>.</p>
+<p>As with cards sold under the Tortuga base, debit and credit cards for sale as part of the Barbarossa base list the country of origin for the issuing bank, and then directly underneath include the state, city and ZIP code of the Target store from which the card numbers were stolen.</p>
+<p>When I first became aware that this card shop was selling only cards stolen from Target stores, I noticed a discussion on a related crime forum wherein customers of this shop seemed very enthusiastic about this ZIP code feature. I couldn&#8217;t figure out what the big deal was: I&#8217;d assumed the state, city and ZIP described the bank that issued the card.</p>
+<p>Later, I learned from a fraud expert that this feature is included because it allows customers of the shop to buy cards issued to cardholders that live nearby. This lets crooks who want to use the cards for in-store fraud avoid any knee-jerk fraud defenses in which a financial institution might block transactions that occur outside the legitimate cardholder&#8217;s immediate geographic region.</p>
+<div id="attachment_24138" style="width: 610px" class="wp-caption aligncenter"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/barb-all.png"><img class="size-large wp-image-24138" alt="Non-U.S. cards used at Target generally fetch higher prices than U.S. cards, between $67 and $100 apiece. " src="http://krebsonsecurity.com/wp-content/uploads/2013/12/barb-all-600x310.png" width="600" height="310" /></a><p class="wp-caption-text">Non-U.S. cards used at Target generally fetch higher prices than U.S. cards, between $67 and $100 apiece.</p></div>
+<p>The cards for sale in the Barbarossa base vary widely in price from $23.62 per card to as high as $135 per card. The prices seem to be influenced by a number of factors, including the issuing bank, the type of card (debit or credit), how soon the card expires, and whether the card bears a special notation that often indicates a higher credit limit, such as a Platinum card.</p>
+<p><span id="more-24132"></span></p>
+<p>The prices also appear to be influenced partly by how rare it is to find cards for a specific bank available on the black market. The highest-priced cards I found for sale were issued by banks in Singapore, South Korea and the United Arab Emirates.</p>
+<div id="attachment_24148" style="width: 610px" class="wp-caption aligncenter"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/can-bar.png"><img class="size-large wp-image-24148" alt="Barbarossa base cards  issued by Canadian banks. Note that city, state and ZIP code listed indicate the location of the Target store from which the card was stolen." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/can-bar-600x303.png" width="600" height="303" /></a><p class="wp-caption-text">Barbarossa base cards issued by Canadian banks. Note that city, state and ZIP code listed indicate the location of the Target store from which the card was stolen.</p></div>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/non-us-cards-used-at-target-fetch-premium/feed/</wfw:commentRss>
+		<slash:comments>24</slash:comments>
+		</item>
+		<item>
+		<title>Cards Stolen in Target Breach Flood Underground Markets</title>
+		<link>http://krebsonsecurity.com/2013/12/cards-stolen-in-target-breach-flood-underground-markets/</link>
+		<comments>http://krebsonsecurity.com/2013/12/cards-stolen-in-target-breach-flood-underground-markets/#comments</comments>
+		<pubDate>Fri, 20 Dec 2013 15:06:30 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[ATM]]></category>
+		<category><![CDATA[BINs]]></category>
+		<category><![CDATA[Bitcoin]]></category>
+		<category><![CDATA[card shop]]></category>
+		<category><![CDATA[dumps]]></category>
+		<category><![CDATA[Litecoin]]></category>
+		<category><![CDATA[mastercard]]></category>
+		<category><![CDATA[moneygram]]></category>
+		<category><![CDATA[PerfectMoney]]></category>
+		<category><![CDATA[PIN]]></category>
+		<category><![CDATA[target]]></category>
+		<category><![CDATA[target credit card hack]]></category>
+		<category><![CDATA[target data breach]]></category>
+		<category><![CDATA[tortuga]]></category>
+		<category><![CDATA[tortuga base]]></category>
+		<category><![CDATA[Visa]]></category>
+		<category><![CDATA[webmoney]]></category>
+		<category><![CDATA[western union]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=24093</guid>
+		<description><![CDATA[Cards stolen in a recent data breach at retail giant Target have been flooding underground black markets in recent weeks, selling in batches of one million cards and going for anywhere from $20 to more than $100 per card, KrebsOnSecurity has learned.]]></description>
+				<content:encoded><![CDATA[<p>Credit and debit card accounts stolen in a recent data breach at retail giant Target have been flooding underground black markets in recent weeks, selling in batches of one million cards and going for anywhere from $20 to more than $100 per card, KrebsOnSecurity has learned.</p>
+<p><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/targetgoboom.jpg"><img class="alignright size-medium wp-image-24111" alt="targetgoboom" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/targetgoboom-285x213.jpg" width="285" height="213" /></a></p>
+<p>Prior to <a title="http://krebsonsecurity.com/2013/12/sources-target-investigating-data-breach/" href="http://krebsonsecurity.com/2013/12/sources-target-investigating-data-breach/" target="_blank">breaking the story of the Target breach</a> on Wednesday, Dec. 18, I spoke with a fraud analyst at a major bank who said his team had independently confirmed that Target had been breached after buying a huge chunk of the bank&#8217;s card accounts from a well-known &#8220;card shop&#8221; &#8212; an online store advertised in cybercrime forums as a place where thieves can reliably buy stolen credit and debit cards.</p>
+<p>There are literally hundreds of these shady stores selling stolen credit and debit cards from virtually every bank and country. But this store has earned a special reputation for selling quality &#8220;dumps,&#8221; data stolen from the magnetic stripe on the backs of credit and debit cards. Armed with that information, thieves can effectively clone the cards and use them in stores. If the dumps are from debit cards and the thieves also have access to the PINs for those cards, they can use the cloned cards at ATMs to pull cash out of the victim&#8217;s bank account.</p>
+<p>At least two sources at major banks said they&#8217;d heard from the credit card companies: More than a million of their cards were thought to have been compromised in the Target breach. One of those institutions noticed that one card shop in particular had recently alerted its loyal customers about a huge new batch of more than a million quality dumps that had been added to the online store. Suspecting that the advertised cache of new dumps were actually stolen in the Target breach, fraud investigators with the bank browsed this card shop&#8217;s wares and effectively bought back hundreds of the bank&#8217;s own cards.</p>
+<p>When the bank examined the common point of purchase among all the dumps it had bought from the shady card shop, it found that all of them had been used in Target stores nationwide between Nov. 27 and Dec. 15. Subsequent buys of new cards added to that same shop returned the same result.</p>
+<p>On Dec. 19, Target would confirm that crooks had stolen 40 million debit and credit cards from stores nationwide in a breach that extended from Nov. 27 to Dec. 15. Not long after that announcement, I pinged a source at a small community bank in New England to see whether his institution had been notified by <strong>Visa</strong> or <strong>MasterCard</strong> about specific cards that were potentially compromised in the Target breach.</p>
+<p>This institution has issued a grand total of more than 120,000 debit and credit cards to its customers, but my source told me the tiny bank had not yet heard anything from the card associations about specific cards that might have been compromised as a result of the Target breach. My source was anxious to determine how many of the bank&#8217;s cards were most at risk of being used for fraud, and how many should be proactively canceled and re-issued to customers. The bank wasn&#8217;t exactly chomping at the bit to re-issue the cards; that process costs around $3 to $5 per card, but more importantly it didn&#8217;t want to unnecessarily re-issue cards at a time when many of its customers would be racing around to buy last-minute Christmas gifts and traveling for the holidays.</p>
+<p>On the other hand, this bank had identified nearly 6,000 customer cards &#8212; <em>almost 5 percent of all cards issued to customers</em> &#8212; that had been used at Target stores nationwide during the breach window described by the retailer.</p>
+<p>&#8220;Nobody has notified us,&#8221; my source said. &#8220;Law enforcement hasn&#8217;t said anything, our statewide banking associations haven’t sent anything out&#8230;nothing. Our senior legal counsel today was asking me if we have positive confirmation from the card associations about affected cards, but so far we haven&#8217;t gotten anything.&#8221;</p>
+<p>When I mentioned that a big bank I&#8217;d spoken with had found a 100 percent overlap with the Target breach window after purchasing its available cards off a particular black market card shop called <strong>rescator[dot]la</strong>, my source at the small bank asked would I be willing to advise his fraud team on how to do the same?</p>
+<p><span style="text-decoration: underline;">CARD SHOPPING</span></p>
+<p>Ultimately, I agreed to help in exchange for permission to write about the bank&#8217;s experience without actually naming the institution. The first step in finding any of the bank&#8217;s cards for sale was to browse the card shop&#8217;s remarkably efficient and customer-friendly Web site and search for the bank&#8217;s &#8220;BINs&#8221;; the <strong>B</strong>ank <strong>I</strong>dentification <strong>N</strong>umber is merely the first six digits of a debit or credit card, and each bank has its own unique BIN or multiple BINs.</p>
+<div id="attachment_24103" style="width: 610px" class="wp-caption aligncenter"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/binpage.png"><img class="size-large wp-image-24103" alt="According to the &quot;base&quot; name, this &quot;Dumps&quot; shop sells only cards stolen in the Target breach. " src="http://krebsonsecurity.com/wp-content/uploads/2013/12/binpage-600x337.png" width="600" height="337" /></a><p class="wp-caption-text">According to the &#8220;base&#8221; name for all stolen cards sold at this card shop, the proprietor sells only cards stolen in the Target breach.</p></div>
+<p>A quick search on the card shop for the bank&#8217;s BINs revealed nearly 100 of its customers&#8217;s cards for sale, a mix of MasterCard dumps ranging in price from $26.60 to $44.80 apiece. As one can imagine, this store doesn&#8217;t let customers pay for purchases with credit cards; rather, customers can &#8220;add money&#8221; to their accounts using a variety of irreversible payment mechanisms, including virtual currencies like <strong>Bitcoin</strong>, <strong>Litecoin</strong>, <strong>WebMoney</strong> and <strong>PerfectMoney</strong>, as well as the more traditional wire transfers via <strong>Western Union</strong> and <strong>MoneyGram</strong>.</p>
+<p>With my source&#8217;s newly registered account funded via wire transfer to the tune of USD $450, it was time to go shopping. My source wasn&#8217;t prepared to buy up all of the available cards that match his institution&#8217;s BINs, so he opted to start with a batch of 20 or so of the more recently-issued cards for sale.</p>
+<p><span id="more-24093"></span></p>
+<p>Like other card shops, this store allows customers to search for available cards using a number of qualifications, including BIN; dozens of card types (MasterCard, Visa, et. al.); expiration date; <a title="http://money.howstuffworks.com/personal-finance/debt-management/credit-card2.htm" href="http://money.howstuffworks.com/personal-finance/debt-management/credit-card2.htm" target="_blank">track type</a>; country; and the name of the financial institution that issued the card.</p>
+<div id="attachment_24105" style="width: 295px" class="wp-caption alignleft"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/tortuga-seal.png"><img class="size-medium wp-image-24105" alt="A graphic advertisement for stolen cards sold under the &quot;Tortuga&quot; base." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/tortuga-seal-285x223.png" width="285" height="223" /></a><p class="wp-caption-text">A graphic advertisement for stolen cards sold under the &#8220;Tortuga&#8221; base.</p></div>
+<p>A key feature of this particular dumps shop is that each card is assigned to a particular &#8220;base.&#8221; This term is underground slang that refers to an arbitrary code word chosen to describe all of the cards stolen from a specific merchant. In this case, my source at the big bank had said all of the cards his team purchased from this card shop that matched Target&#8217;s N0v. 27 &#8211; Dec. 15 breach window bore the base name <strong>Tortuga</strong>, which is Spanish for &#8220;tortoise&#8221; or &#8220;turtle.&#8221;</p>
+<p>Indeed, shortly after the Target breach began, the proprietor of this card shop &#8212; a miscreant nicknamed &#8220;Rescator&#8221; and a key figure on a Russian-language cybercrime forum known as &#8220;Lampeduza&#8221; &#8212; was advertising a brand new base of one million cards, called Tortuga.</p>
+<p>Rescator even created a graphical logo in the Lampeduza forum&#8217;s typeface and style, advertising &#8220;valid 100% rate,&#8221; and offering a money-back guarantee on any cards from this &#8220;fresh&#8221; base that were found to have been canceled by the card issuer immediately after purchase. In addition, sometime in December, this shop ceased selling cards from other bases aside from those from the Tortuga base. As the month wore on, new Tortuga bases would be added to shop, with each base incrementing by one with almost every passing day (e.g., Tortuga1, Tortuga2, Tortuga3, etc.).</p>
+<p>Another fascinating feature of this card shop is that<em> it appears to include the ZIP code and city of the store from which the cards were stolen</em>. One fraud expert I spoke with who asked to remain anonymous said this information is included to help fraudsters purchasing the dumps make same-state purchases, thus avoiding any knee-jerk fraud defenses in which a financial institution might block transactions out-of-state from a known compromised card.</p>
+<p>The New England bank decided to purchase 20 of its own cards from this shop, cards from Tortuga bases 6-9, and Tortuga 14 and 15. The store&#8217;s &#8220;shopping cart&#8221; offers the ability to check the validity of each purchased card. Any cards that are checked and found to be invalid automatically get refunded. A check of the cards revealed that just one of the 20 had already been canceled.</p>
+<p>The bank quickly ran a fraud and common point-of-purchase analyses on each of the 19 remaining cards. Sure enough, the bank&#8217;s database showed that all had been used by customers to make purchases at Target stores around the country between Nov. 29 and Dec. 15.</p>
+<p>&#8220;Some of these already have confirmed fraud on them, and a few of them were actually just issued recently and have <em>only</em> been used at Target,&#8221; my source told me.<em> Incredibly, a number of the cards were flagged for fraud after they were used to make unauthorized purchases at big box retailers, including &#8212; wait for it &#8212; Target</em>. My source explained that crooks often use stolen dumps to purchase high-priced items such as Xbox consoles and high-dollar amount gift cards, goods that can be fenced, auctioned or otherwise offloaded quickly and easily for cash.</p>
+<p>My source said his employer isn&#8217;t yet sure which course of action it will take, but that it&#8217;s likely the bank will re-issue some or all of the 5,300+ cards affected by the Target breach &#8212; most likely sometime after Dec. 25.</p>
+<p>The bank is unconcerned that its cards compromised in the Target breach might be used for online shopping fraud because the stolen data does not include the CVV2 &#8212; the three digit security code printed on the backs of customer cards. Most online merchants require customers to supply the CVV2 as proof that they posses the legitimate, physical card for the corresponding account that is being used to fund the online purchase.</p>
+<blockquote><p><strong>Update, 5:20 p.m. ET:</strong> In a message to consumers, Target CEO Gregg Steinhafel said Target would be offering free credit monitoring for affected customers. Not sure how credit monitoring helps with this specific breach, but at any rate here&#8217;s the rest of his statement: </p>
+<p>&#8220;Yesterday we shared that there was unauthorized access to payment card data at our U.S. stores. The issue has been identified and eliminated. We recognize this has been confusing and disruptive during an already busy holiday season. Our guests’ trust is our top priority at Target and we are committed to making this right.</p>
+<p>We want our guests to understand that just because they shopped at Target during the impacted time frame, it doesn’t mean they are victims of fraud. In fact, in other similar situations, there are typically low levels of actual fraud. Most importantly, we want to reassure guests that they will not be held financially responsible for any credit and debit card fraud. And to provide guests with extra assurance, we will be offering free credit monitoring services. We will be in touch with those impacted by this issue soon on how and where to access the service.</p>
+<p>We understand it’s been difficult for some guests to reach us via our website and call center. We apologize and want you to understand that we are experiencing unprecedented call volume. Our Target teams are working continuously to build capacity and meet our guests’ needs.</p>
+<p>We take this crime seriously. It was a crime against Target, our team members, and most importantly, our guests. We’re in this together, and in that spirit, we are extending a 10% discount – the same amount our team members receive – to guests who shop in U.S. stores on Dec. 21 and 22. Again, we recognize this issue has been confusing and disruptive during an already busy holiday season. We want to emphasize that the issue has been addressed and let guests know they can shop with confidence at their local Target stores.&#8221;</p></blockquote>
+<span id="last"></span><div id="slidebox"><a class="close"></a></p>
+<h4>Have you seen:</h4>
+<p><a title="Non-US Cards Used At Target Fetch Premium" href="http://krebsonsecurity.com/2013/12/non-us-cards-used-at-target-fetch-premium/" target="_blank">Non-US Cards Used At Target Fetch Premium&#8221;</a>&#8230;An underground service that is selling millions of credit and debit card accounts stolen in a recent data breach at retail giant Target has stocked its virtual shelves with a new product: Hundreds of thousands of cards issued by non-U.S. banks that were used at Target across the United States during the retailer’s 19-day data breach. It’s not clear how quickly the non-U.S. cards are selling, but they seem to be fetching a much higher price than those issued by U.S. banks.<br />
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/cards-stolen-in-target-breach-flood-underground-markets/feed/</wfw:commentRss>
+		<slash:comments>361</slash:comments>
+		</item>
+		<item>
+		<title>Sources: Target Investigating Data Breach</title>
+		<link>http://krebsonsecurity.com/2013/12/sources-target-investigating-data-breach/</link>
+		<comments>http://krebsonsecurity.com/2013/12/sources-target-investigating-data-breach/#comments</comments>
+		<pubDate>Wed, 18 Dec 2013 19:33:31 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[target black friday breach]]></category>
+		<category><![CDATA[target data breach]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=24054</guid>
+		<description><![CDATA[Nationwide retail giant Target is investigating a data breach potentially involving millions of customer credit and debit cards stolen from physical stores over the past few weeks, multiple reliable sources tell KrebsOnSecurity.]]></description>
+				<content:encoded><![CDATA[<p>Nationwide retail giant <strong>Target</strong> is investigating a data breach potentially involving millions of customer credit and debit card records, multiple reliable sources tell KrebsOnSecurity. The sources said the breach appears to have begun on or around Black Friday 2013 &#8212; by far the busiest shopping day the year.</p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/target.png"><img class="alignright size-full wp-image-24057" alt="target" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/target.png" width="176" height="216" /></a></p>
+<p><strong>Update, Dec. 19: 8:20 a.m. ET:</strong> Target released <a title="http://pressroom.target.com/news/target-confirms-unauthorized-access-to-payment-card-data-in-u-s-stores" href="http://pressroom.target.com/news/target-confirms-unauthorized-access-to-payment-card-data-in-u-s-stores" target="_blank">a statement</a> this morning confirming a breach, saying that 40 million credit and debit card accounts may have been impacted between Nov. 27 and Dec. 15, 2013.</p>
+<p><em>Original story;</em></p>
+<p>According to sources at two different top 10 credit card issuers, the breach extends to nearly all Target locations nationwide, and involves the theft of data stored on the magnetic stripe of cards used at the stores.</p>
+<p>Minneapolis, Minn. based<strong> Target Brands Inc.</strong> has not responded to multiple requests for comment. Representatives from<strong> MasterCard</strong> and <strong>Visa</strong> also could not be immediately reached for comment.</p>
+<p>Both sources said the breach was initially thought to have extended from just after Thanksgiving 2013 to Dec. 6. But over the past few days, investigators have unearthed evidence that the breach extended at least an additional week &#8212; possibly as far as Dec. 15. According to sources, the breach affected an unknown number of Target customers who shopped at the company&#8217;s bricks-and-mortar stores during that timeframe.</p>
+<p>&#8220;The breach window is definitely expanding,&#8221; said one anti-fraud analyst at a top ten U.S. bank card issuer who asked to remain anonymous. &#8220;We can&#8217;t say for sure that all stores were impacted, but we do see customers all over the U.S. that were victimized.&#8221;</p>
+<p>There are no indications at this time that the breach affected customers who shopped at Target&#8217;s online stores. The type of data stolen &#8212; also known as &#8220;track data&#8221; &#8212; allows crooks to create counterfeit cards by encoding the information onto any card with a magnetic stripe. If the thieves also were able to intercept PIN data for debit transactions, they would theoretically be able to reproduce stolen debit cards and use them to withdraw cash from ATMs.</p>
+<p><span id="more-24054"></span><br />
+It&#8217;s not clear how many cards thieves may have stolen in the breach. But the sources I spoke with from two major card issuers said they have so far been notified by one of the credit card associations regarding more than one million of cards total from both issuers that were thought to have been compromised in the breach. A third source at a data breach investigation firm said it appears that &#8220;when all is said and done, this one will put its mark up there with some of the largest retail breaches to date.&#8221;</p>
+<p>Some of the largest retailer breaches to date may help explain what happened in this case. In 2007, <a title="http://www.computerworld.com/s/article/9014782/TJX_data_breach_At_45.6M_card_numbers_it_s_the_biggest_ever" href="http://www.computerworld.com/s/article/9014782/TJX_data_breach_At_45.6M_card_numbers_it_s_the_biggest_ever" target="_blank">retailer TJX announced</a> that its systems had been breached by hackers. The company later learned that thieves had used the store&#8217;s wireless networks to access systems at its Massachusetts headquarters that were used to store data related to payment card, check and return transactions at stores across the country, and that crooks had made off with data from more than 45 million customer credit and debit cards.</p>
+<p>In 2009, credit card processor <a title="http://en.wikipedia.org/wiki/Heartland_Payment_Systems" href="http://en.wikipedia.org/wiki/Heartland_Payment_Systems" target="_blank">Heartland Payment Systems</a> disclosed that thieves had broken into is internal card processing network, and installed malicious software that allowed them to steal track data on more than 130 million cards.</p>
+<p>This is likely to be a fast-moving story. Stay tuned for updates as they become available.</p>
+<span id="last"></span><div id="slidebox"><a class="close"></a></p>
+<h4>Have you seen:</h4>
+<p><a title="Cards Stolen in Target Breach Flood Underground Markets" href="http://krebsonsecurity.com/2013/12/cards-stolen-in-target-breach-flood-underground-markets/" target="_blank">Cards Stolen in Target Breach Flood Underground Markets&#8221;</a>&#8230;Credit and debit card accounts stolen in a recent data breach at retail giant Target have been flooding underground black markets in recent weeks, selling in batches of one million cards and going for anywhere from $20 to more than $100 per card, KrebsOnSecurity has learned.</p>
+<p></div>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/sources-target-investigating-data-breach/feed/</wfw:commentRss>
+		<slash:comments>566</slash:comments>
+		</item>
+		<item>
+		<title>The Biggest Skimmers of All: Fake ATMs</title>
+		<link>http://krebsonsecurity.com/2013/12/the-biggest-skimmers-of-all-fake-atms/</link>
+		<comments>http://krebsonsecurity.com/2013/12/the-biggest-skimmers-of-all-fake-atms/#comments</comments>
+		<pubDate>Wed, 18 Dec 2013 15:34:05 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[atm skimmer]]></category>
+		<category><![CDATA[Bank of Brazil]]></category>
+		<category><![CDATA[GSM]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=24029</guid>
+		<description><![CDATA[This blog has spotlighted some incredibly elaborate and minaturized ATM skimmers, fraud devices that thieves attach to ATMs in a bid to steal card data and PINs. But a skimmer discovered in Brazil last month takes this sort of fraud to another level, using a completely fake ATM designed to be stacked directly on top [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>This blog has spotlighted some <a title="http://krebsonsecurity.com/all-about-skimmers/" href="http://krebsonsecurity.com/all-about-skimmers/" target="_blank">incredibly elaborate and minaturized ATM skimmers</a>, fraud devices that thieves attach to ATMs in a bid to steal card data and PINs. But a skimmer discovered in Brazil last month takes this sort of fraud to another level, using a completely fake ATM designed to be stacked directly on top of a legitimate, existing cash machine.</p>
+<p>On Saturday, Nov. 23, a customer at a <strong>Bank of Brazil</strong> branch in <a title="http://en.wikipedia.org/wiki/Curitiba" href="http://en.wikipedia.org/wiki/Curitiba" target="_blank">Curitiba, Brazil </a>approached the cash machine pictured below, dipped his ATM card in the machine&#8217;s slot, and entered his PIN, hoping to get a printed statement of his bank balance.</p>
+<div id="attachment_24031" style="width: 610px" class="wp-caption aligncenter"><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/BoBATMfront.png"><img class="size-large wp-image-24031" alt="A completely fake ATM discovered in Brazil, designed to sit directly on top of the real cash machine." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/BoBATMfront-600x415.png" width="600" height="415" /></a><p class="wp-caption-text">A completely fake ATM discovered in Brazil, designed to sit directly on top of the real cash machine.</p></div>
+<p>When the transaction failed, the customer became suspicious and discovered that this ATM wasn&#8217;t a cash machine at all, but a complete fake designed to be seated directly on top of the real cash machine. Here&#8217;s what the legitimate ATM that was underneath looked like.</p>
+<div id="attachment_24032" style="width: 610px" class="wp-caption aligncenter"><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/RealBoBATM.png"><img class="size-large wp-image-24032" alt="The real ATM." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/RealBoBATM-600x392.png" width="600" height="392" /></a><p class="wp-caption-text">The real ATM underneath.</p></div>
+<p>When the cops arrived, they pulled the fake ATM off the real cash machine. Here is the fake ATM, set down on the floor.</p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/FakeATMfloor.png"><img class="aligncenter size-large wp-image-24034" alt="FakeATMfloor" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/FakeATMfloor-600x439.png" width="600" height="439" /></a></p>
+<p><span id="more-24029"></span></p>
+<p>The backside of the phony cash machine reveals what may be a disassembled laptop with the screen facing outward. The entire apparatus is powered by two large batteries (right). Notice the card skimming device (top right, with the green light) and a side view of the component for the fake PIN pad (top).</p>
+<div id="attachment_24036" style="width: 610px" class="wp-caption aligncenter"><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/FakeATMback.png"><img class="size-large wp-image-24036" alt="The backside of the fake ATM shows what appears to be laptop and skimmer components powered by two huge batteries." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/FakeATMback-600x402.png" width="600" height="402" /></a><p class="wp-caption-text">The backside of the fake ATM shows what appears to be laptop and skimmer components powered by two huge batteries.</p></div>
+<p>It&#8217;s not clear from the reporting in <a title="http://www.cbnfoz.com.br/editorial/parana/24112013-48801-cliente-descobre-caixa-eletronico-falso-em-agencia-bancaria-no-parana" href="http://www.cbnfoz.com.br/editorial/parana/24112013-48801-cliente-descobre-caixa-eletronico-falso-em-agencia-bancaria-no-parana" target="_blank">these</a> <a title="http://www.parana-online.com.br/editoria/policia/news/709189/?noticia=BANDIDOS+INSTALAM+CAIXA+FALSO+EM+AGENCIA+DO+BIGORRILHO" href="http://www.parana-online.com.br/editoria/policia/news/709189/?noticia=BANDIDOS+INSTALAM+CAIXA+FALSO+EM+AGENCIA+DO+BIGORRILHO" target="_blank">stories</a> from the Brazilian media (nor from the <a title="https://www.youtube.com/watch?v=z1CrmlK5zMM" href="https://www.youtube.com/watch?v=z1CrmlK5zMM" target="_blank">Youtube video</a> from which the above photos were taken) exactly what hardware was included in this device. It seems difficult to believe that thieves would go to all this trouble without incorporating some type of <a title="http://krebsonsecurity.com/2010/06/sophisticated-atm-skimmer-transmits-stolen-data-via-text-message/" href="http://krebsonsecurity.com/2010/06/sophisticated-atm-skimmer-transmits-stolen-data-via-text-message/" target="_blank">GSM or 3G components that would allow them to retrieve the stolen information wirelessly</a>. I don&#8217;t imagine it would be easy to simply walk away from a cash machine unnoticed while holding a giant fake ATM, and a wireless component would let the skimmer scammers offload any stolen data even after their creations were seized by the authorities.</p>
+<p>This device appears to be nearly identical to <a title="http://www.gazetaderondonia.com.br/20130422124619/web/replica-de-caixa-automatico-e-usada-para-golpe-em-s-cruz-do-rio-pardo.html" href="http://www.gazetaderondonia.com.br/20130422124619/web/replica-de-caixa-automatico-e-usada-para-golpe-em-s-cruz-do-rio-pardo.html" target="_blank">a fake ATM found in April 2013 in Santa Cruz do Rio Pardo</a>. The story about that April incident has much higher resolution photos, and states that the fake ATM indeed included a 3G mobile connection, ostensibly for sending the stolen card and PIN data to the thieves wirelessly via text message.</p>
+<p>Interestingly, much like grammatical and spelling errors that often give away phishing emails and Web sites, the thieves who assembled the video for the screen for the fake ATM used in the April robbery appear have made a grammatical goof in spelling &#8220;país,&#8221; the Portuguese word for &#8220;country&#8221;; apparently, they left off the acute accent.</p>
+<p>Most skimming attacks (including the two mentioned here) take place over the weekend hours. Skimmer scammers like to place their devices at a time when they know the bank will be closed for an extended period, and when foot traffic to the machine will be at its highest.</p>
+<p>Keep a keen eye out for anything that looks amiss when you visit the ATM; if you see something that doesn&#8217;t look right, notify the bank or owner of the machine, and go somewhere else to get your cash. More importantly, make sure you&#8217;re aware of your physical surroundings when you go to withdraw money, and whenever possible use cash machines in well-lit, open places. Most people probably have a better chance of being physically mugged while at the ATM than they do getting scammed by a skimmer. According to <a title="https://www.osac.gov/pages/ContentReportDetails.aspx?cid=13521" href="https://www.osac.gov/pages/ContentReportDetails.aspx?cid=13521" target="_blank">a January 2013 report</a> by the <strong>U.S. State Department</strong>, this is especially true for foreigners in São Paulo, Brazil, where &#8220;express kidnappings&#8221; occur when criminals force their victims to extract their daily cash limit from an ATM machine.</p>
+<p>Finally, although it would not have helped the victims of these fake Brazilian ATMs, <a title="http://krebsonsecurity.com/2012/09/a-handy-way-to-foil-atm-skimmer-scams/" href="http://krebsonsecurity.com/2012/09/a-handy-way-to-foil-atm-skimmer-scams/" target="_blank">using your hand to cover the PIN pad while you enter your digits</a> is a great way to foil most skimmers, which tend to rely on hidden cameras as opposed to <a title="http://krebsonsecurity.com/wp-content/uploads/2010/05/25012010007-300x225.jpg" href="http://krebsonsecurity.com/wp-content/uploads/2010/05/25012010007-300x225.jpg" target="_blank">fake PIN pads</a> or <a title="http://krebsonsecurity.com/wp-content/uploads/2010/08/skimgallery1.jpg" href="http://krebsonsecurity.com/wp-content/uploads/2010/08/skimgallery1.jpg" target="_blank">PIN pad overlays</a>.</p>
+<p>Fascinated by ATM skimmers? Check out my series on these fraud devices: <a title="http://krebsonsecurity.com/all-about-skimmers/" href="http://krebsonsecurity.com/all-about-skimmers/" target="_blank">All About Skimmers</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/the-biggest-skimmers-of-all-fake-atms/feed/</wfw:commentRss>
+		<slash:comments>32</slash:comments>
+		</item>
+		<item>
+		<title>The Case for a Compulsory Bug Bounty</title>
+		<link>http://krebsonsecurity.com/2013/12/the-case-for-a-compulsory-bug-bounty/</link>
+		<comments>http://krebsonsecurity.com/2013/12/the-case-for-a-compulsory-bug-bounty/#comments</comments>
+		<pubDate>Tue, 17 Dec 2013 05:53:42 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Data Breach Investigations Report]]></category>
+		<category><![CDATA[Errata Security]]></category>
+		<category><![CDATA[international vulnerability purchase program]]></category>
+		<category><![CDATA[IVPP]]></category>
+		<category><![CDATA[NSS Labs]]></category>
+		<category><![CDATA[Robert Graham]]></category>
+		<category><![CDATA[stefan frei]]></category>
+		<category><![CDATA[Verizon]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=23857</guid>
+		<description><![CDATA[Security experts have long opined that one way to make software more secure is to hold software makers liable for vulnerabilities in their products.  This idea is often dismissed as unrealistic and one that would stifle innovation in an industry that has been a major driver of commercial growth and productivity over the years. But a new study released this week presents perhaps the clearest economic case yet for compelling companies to pay for information about security vulnerabilities in their products.]]></description>
+				<content:encoded><![CDATA[<p>Security experts have long opined that one way to make software more secure is to hold software makers liable for vulnerabilities in their products.  This idea is often dismissed as unrealistic and one that would stifle innovation in an industry that has been a major driver of commercial growth and productivity over the years. But a new study released this week presents perhaps the clearest economic case yet for compelling companies to pay for information about security vulnerabilities in their products.</p>
+<p>Before I delve into this modest proposal, let&#8217;s postulate a few assumptions that hopefully aren&#8217;t terribly divisive:</p>
+<ul>
+<li>Modern societies are becoming increasingly dependent on software and computer programs.</li>
+<li>After decades of designing software, human beings still build imperfect, buggy, and insecure programs.</li>
+<li>Estimates of the global damage from cybercrime ranges from the low billions to <a title="http://www.usatoday.com/story/cybertruth/2013/11/08/cybercrimes-bottom-line-500-billion/3478235/" href="http://www.usatoday.com/story/cybertruth/2013/11/08/cybercrimes-bottom-line-500-billion/3478235/" target="_blank">hundreds of billions</a> of dollars annually.</li>
+<li>The market for finding, stockpiling and hoarding (keeping secret) software flaws is expanding rapidly.</li>
+<li>Vendor-driven &#8220;bug bounty&#8221; programs which reward researchers for reporting and coordinating the patching of flaws are expanding, but currently do not offer anywhere near the prices offered in the underground or by private buyers.</li>
+<li>Software security is a &#8220;negative externality&#8221;: like environmental pollution, vulnerabilities in software impose costs on users and on society as a whole, while software vendors internalize profits and externalize costs. Thus, absent any demand from their shareholders or customers, profit-driven businesses tend not to invest in eliminating negative externalities.</li>
+</ul>
+<p>Earlier this month, I published a piece called <a title="http://krebsonsecurity.com/2013/12/how-many-zero-days-hit-you-today/" href="http://krebsonsecurity.com/2013/12/how-many-zero-days-hit-you-today/" target="_blank">How Many Zero-Days Hit You Today</a>, which examined a study by vulnerability researcher <strong>Stefan Frei </strong>about the bustling market for &#8220;zero-day&#8221; flaws &#8212; security holes in software that not even the makers of those products know about. These vulnerabilities &#8212; particularly zero-days found in widely-used software like Flash and Java &#8212; are extremely valuable because attackers can use them to slip past security defenses unnoticed.</p>
+<p>Frei&#8217;s analysis conservatively estimated that private companies which purchase software vulnerabilities for use by nation states and other practitioners of cyber espionage provide access to <em>at least 85 zero-day exploits on any given day of the year</em>. That estimate doesn&#8217;t even consider the number of zero-day bugs that may be sold or traded each day in the cybercrime underground.</p>
+<p>At the end of that post, I asked readers whether it was possible and/or desirable to create a truly global, independent bug bounty program that would help level the playing field in favor of the defenders and independent security researchers. Frei&#8217;s latest paper outlines one possible answer.</p>
+<p><span style="text-decoration: underline;">BUYING ALL BUGS AT ABOVE BLACK-MARKET PRICES</span></p>
+<p>Frei proposes creating a multi-tiered, &#8220;international vulnerability purchase program&#8221; (IVPP), in which the major software vendors would be induced to purchase all of the available and known vulnerabilities at prices well above what even the black market is willing to pay for them. But more on that in a bit.</p>
+<p>The director of research for Austin, Texas-based <a title="http://www.nsslabs.com" href="http://www.nsslabs.com" target="_blank">NSS Labs</a>, Frei examined all of the software vulnerabilities reported in 2012, and found that the top 10 software makers were responsible for more than 30 percent of all flaws fixed. Frei estimates that if these vendors were to have purchased information on all of those flaws at a steep price of $150,000 per vulnerability &#8212; an amount that is well above what cybercriminals or vulnerability brokers typically offer for such bugs &#8212; this would still come to less than one percent of the annual revenues for these software firms.</p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/vendorbuyvulncost.png"><img class="aligncenter size-large wp-image-23979" alt="vendorbuyvulncost" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/vendorbuyvulncost-600x318.png" width="600" height="318" /></a></p>
+<p>Frei points out that the cost of purchasing all vulnerabilities for all products would be considerably lower than the savings that would occur as a result of the expected reduction in losses occurring as a result of cyber crime &#8212; even under the conservative estimate that these losses would be reduced by only 10 percent.</p>
+<p>In the above chart, for example, we can see Oracle &#8212; the software vendor responsible for <a title="http://krebsonsecurity.com/?s=Java&amp;x=-1059&amp;y=-613" href="http://krebsonsecurity.com/?s=Java&amp;x=-1059&amp;y=-613" target="_blank">Java</a> and a whole heap of database software code that is found in thousands of organizations &#8212; fixed more than 427 vulnerabilities last year. It also brought in more than $37 billion in revenues that year. If Oracle were to pay researchers top dollar ($150,000) for each vulnerability, that would still come to less than two-tenths of one percent of the company&#8217;s annual revenues (USD $67 million).</p>
+<p>Frei posits that if vendors were required to internalize the cost of such a program, they would likely be far more motivated to review and/or enhance the security of their software development processes.</p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/gdp-globalVSsoft.png"><img class="aligncenter size-large wp-image-23992" alt="gdp-globalVSsoft" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/gdp-globalVSsoft-600x169.png" width="600" height="169" /></a></p>
+<p>Likewise, Frei said, such a lucrative bug bounty system would virtually ensure that every release of commercial software products would be scrutinized by legions of security experts.</p>
+<p>&#8220;In the short term, it would hit the vendors very badly,&#8221; Frei said in a phone interview with KrebsOnSecurity. &#8220;But in the long term, this would produce much more secure software.&#8221;</p>
+<div>
+<p>&#8220;When you look at new innovations like cars, airplanes and electricity, we see that security and reliability was enhanced tremendously with each as soon as there was independent testing,&#8221; said Frei, an experienced helicopter pilot. &#8220;I was recently reading a book about the history of aviation, and [it noted that in] the first iteration of the NTSB [National Transportation Safety Board] it was explicitly stated that when they investigate an accident, if they could not find a mechanical failure, they blamed the pilot. This is what we do now with software: We blame the user. We say, you should have installed antivirus, or done this and that.&#8221;</p>
+<p><span id="more-23857"></span></p>
+<p><span style="text-decoration: underline;">HOW WOULD IT WORK?</span></p>
+<p>In my challenge to readers, I asked for thoughts on how a global bug bounty program might maintain its independence and not be overly influenced by one national government or another. To combat this potential threat, Frei suggests creating a multi-tiered organization that would consist of several regional or local vulnerability submission centers &#8212; perhaps one for the Americas, another for Europe, and a third for Asia.</p>
+<p>Those submission centers would then contract with &#8220;technical qualification centers&#8221; (the second tier) to qualify the submissions, and to work with researchers and the affected software vendors.</p>
+<p>&#8220;Most critical is that the IVPP employs an organizational structure with multiple entities at each tier,&#8221; wrote Frei and fellow NSS researcher <strong>Francisco Artes</strong>. &#8220;This will ensure the automatic and consistent sharing of all relevant process information with all local submission centers, thus guaranteeing that the IVPP operates independently and is trustworthy.&#8221;</p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/ivppSTRUCTURE.png"><img class="aligncenter size-large wp-image-24000" alt="ivppSTRUCTURE" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/ivppSTRUCTURE-600x598.png" width="600" height="598" /></a></p>
+<p>According to Frei and Artes, this structure would allow researchers to check the status of a submission with any submission center, and would allow each submission center to verify that it possesses all information &#8212; including submissions from other centers.</p>
+<p>&#8220;Because the IVPP would be handling highly sensitive information, checks and balances are critical,&#8221; the two wrote. &#8220;They would make it difficult for any party to circumvent the published policy of vulnerability handling. A multi-tiered structure prevents any part of the organization, or legal entity within which it is operating, from monopolizing the process or the information being analyzed. Governments could still share vulnerabilities with their agencies, but they would no longer have exclusive access to this information and for extended periods of time.&#8221;</p>
+<p><span style="text-decoration: underline;">IS IT A GOOD IDEA?</span></p>
+<p>Frei&#8217;s elaborate system is well thought-out, but it glosses over the most important catalyst: The need for government intervention. While indeed an increasing number of software and Internet companies have begun offering bug bounties (Google and Mozilla have for some time, and Microsoft began offering a limited bounty earlier this year), few of them pay anywhere near what private vulnerability brokers can offer, and would be unlikely to up the ante much absent a legal requirement to do so.</p>
+<p><strong>Robert Graham</strong>, CEO of <a title="http://www.erratasec.com" href="http://www.erratasec.com" target="_blank">Errata Security</a>, said he strongly supports the idea of companies offering bug bounties, so long as they&#8217;re not forced to do so by government fiat.</p>
+<p>&#8220;The amount we’re losing from malicious hacking is a lot less than what we gain from the free and open nature of Internet,&#8221; Graham said. &#8220;And that includes the ability of companies to quickly evolve their products because they don’t have to second-guess every decision just so they can make things more secure.&#8221;</p>
+<p>Graham said he takes issue with the notion that most of the losses from criminal hacking and cybercrime are the direct result of insecure software. On the contrary, he said, most of the attacks that result in costly data breaches for companies these days stem from poorly secured Web applications. He pointed to <strong>Verizon</strong>&#8216;s annual <a title="http://www.verizonenterprise.com/DBIR/2013/" href="http://www.verizonenterprise.com/DBIR/2013/" target="_blank">Data Breach Investigations Report</a>, which demonstrates <a title="http://krebsonsecurity.com/2010/07/hacked-companies-hit-by-the-obvious-in-2009/" href="http://krebsonsecurity.com/2010/07/hacked-companies-hit-by-the-obvious-in-2009/" target="_blank">year after year</a> that most data breaches stem not from software vulnerabilities, but rather from a combination of factors including weak or stolen credentials, social engineering, and poorly configured servers and Web applications.</p>
+<p>&#8220;Commercial software is a tiny part of the whole vulnerability problem,&#8221; Graham said.</p>
+<p>Graham acknowledged that the mere threat of governments imposing some kind of requirement is often enough to induce businesses and entire industries to self-regulate and take affirmative steps to avoid getting tangled in more bureaucratic red tape. And he said if ideas like Frei&#8217;s prompt more companies to offer bug bounties on their own, that&#8217;s ultimately a good thing, noting that he often steers clients toward software vendors that offer bug bounties.</p>
+<p>&#8220;Software that [is backed by a bug] bounty you can trust more, because it&#8217;s more likely that people are looking for and fixing vulnerabilities in the code,&#8221; Graham said. &#8220;So, it&#8217;s a good thing if customers demand it, but not such a good thing if governments were to impose it.&#8221;</p>
+<p>Where do you come down on this topic, dear readers? Feel free to sound off in the comments below. A copy of Frei&#8217;s full paper is available <a title="http://krebsonsecurity.com/wp-content/uploads/2013/12/International-Vulnerability-Purchase-Program-IVPP.pdf" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/International-Vulnerability-Purchase-Program-IVPP.pdf" target="_blank">here</a> (PDF).</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/the-case-for-a-compulsory-bug-bounty/feed/</wfw:commentRss>
+		<slash:comments>65</slash:comments>
+		</item>
+		<item>
+		<title>Botnet Enlists Firefox Users to Hack Web Sites</title>
+		<link>http://krebsonsecurity.com/2013/12/botnet-enlists-firefox-users-to-hack-web-sites/</link>
+		<comments>http://krebsonsecurity.com/2013/12/botnet-enlists-firefox-users-to-hack-web-sites/#comments</comments>
+		<pubDate>Mon, 16 Dec 2013 05:01:40 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[Advanced Power botnet]]></category>
+		<category><![CDATA[alex holden]]></category>
+		<category><![CDATA[Hold Security LLC]]></category>
+		<category><![CDATA[Microsoft .NET Framework Assistant]]></category>
+		<category><![CDATA[mozilla firefox]]></category>
+		<category><![CDATA[SQL injection botnet]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=23940</guid>
+		<description><![CDATA[An unusual botnet that has ensnared more than 12,500 systems disguises itself as a legitimate add-on for Mozilla Firefox and forces infected PCs to scour Web sites for vulnerabilities that can be used to install malware, an investigation by KrebsOnSecurity has discovered.]]></description>
+				<content:encoded><![CDATA[<p>An unusual botnet that has ensnared more than 12,500 systems disguises itself as a legitimate add-on for <strong>Mozilla Firefox</strong> and forces infected PCs to scour Web sites for security vulnerabilities, an investigation by KrebsOnSecurity has discovered.</p>
+<p>The botnet, dubbed &#8220;Advanced Power&#8221; by its operators, appears to have been quietly working since at least May 2013. It&#8217;s not clear yet how the initial infection is being spread, but the malware enslaves PCs in a botnet that conducts <a class="lightbox" title="http://en.wikipedia.org/wiki/SQL_injection" href="http://en.wikipedia.org/wiki/SQL_injection" target="_blank">SQL injection attacks</a> on virtually any Web sites visited by the victim.</p>
+<div id="attachment_23961" style="width: 610px" class="wp-caption aligncenter"><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/panel-main.png"><img class="size-large wp-image-23961" alt="The &quot;Advanced Power&quot; botnet installs itself as a legitimate Firefox extension. The malware looks for vulnerabilities in Web sites visited by the victim. " src="http://krebsonsecurity.com/wp-content/uploads/2013/12/panel-main-600x273.png" width="600" height="273" /></a><p class="wp-caption-text">The &#8220;Advanced Power&#8221; botnet installs itself as a legitimate Firefox extension. The malware looks for vulnerabilities in Web sites visited by the victim.</p></div>
+<p>SQL injection attacks take advantage of weak server configurations to inject malicious code into the database behind the public-facing Web server. Attackers can use this access to booby-trap sites with drive-by malware attacks, or force sites to cough up information stored in their databases.</p>
+<p>Although this malware does include a component designed to steal passwords and other sensitive information from infected machines, this feature does not appear to have been activated on the infected hosts. Rather, the purpose of this botnet seems to be using the compromised Windows desktops as a distributed scanning platform for finding exploitable Web sites. According to the botnet&#8217;s administrative panel, more than 12,500 PCs have been infected, and these bots in turn have helped to discover at least 1,800 Web pages that are vulnerable to SQL injection attacks.</p>
+<div id="attachment_23960" style="width: 295px" class="wp-caption alignleft"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/sql-addon.png"><img class="size-medium wp-image-23960" alt="The fraudulent Firefox add-on." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/sql-addon-285x198.png" width="285" height="198" /></a><p class="wp-caption-text">The fraudulent Firefox add-on.</p></div>
+<p>The malicious code comes from sources referenced in <a title="https://malwr.com/analysis/MTI2YzFkODZkNzA0NDVkYTkzNDBmZTg5YjdkMjM3MDA/" href="https://malwr.com/analysis/MTI2YzFkODZkNzA0NDVkYTkzNDBmZTg5YjdkMjM3MDA/" target="_blank">this Malwr writeup</a> and <a title="https://www.virustotal.com/en/file/19b523e0db7d612dd439147956589b0c7fe264f1eb183ea3a74565ad20d3cb8a/analysis/1370035125/" href="https://www.virustotal.com/en/file/19b523e0db7d612dd439147956589b0c7fe264f1eb183ea3a74565ad20d3cb8a/analysis/1370035125/" target="_blank">this Virustotal entry</a> (please don&#8217;t go looking for this malware unless you really know what you&#8217;re doing). On infected systems with Mozilla Firefox installed, the bot code installs a browser plugin called &#8220;Microsoft .NET Framework Assistant&#8221; (this bogus add-on does not appear to be the same thing <a title="https://addons.mozilla.org/en-US/firefox/addon/microsoft-net-framework-assist/" href="https://addons.mozilla.org/en-US/firefox/addon/microsoft-net-framework-assist/" target="_blank">as this add-on by the same name</a>). The malicious add-on then tests nearly every page the infected user visits for the presence of several different SQL injection vulnerabilities.</p>
+<p><strong>Alex Holden</strong>, chief information security officer at <a title="http://www.holdsecurity.com" href="http://www.holdsecurity.com" target="_blank">Hold Security LLC</a>, said the botnet appears to have been built to automate the tedious and sometimes blind guesswork involved in probing sites for SQL vulnerabilities.</p>
+<p>&#8220;When you test an application for SQL injection or any other vulnerability, you have a small frame of reference as to the site&#8217;s functionality,&#8221; Holden said. &#8220;You often don&#8217;t know or can&#8217;t see many user functions. And in some cases you need proper credentials to do it right. In this case, the hackers are using valid requests within many sites that end-users themselves are feeding them. This is a much bigger sample than you would normally get. By no means it is a full regression test, but it is a deep and innovative approach.&#8221;</p>
+<p>Holden said he believes the authors of this botnet may be natives of and/or reside in the Czech Republic, noting that a few transliterated text strings in the malware are auto-detected by Google Translate as Czech.</p>
+<p><span id="more-23940"></span></p>
+<p>SQL injections are some of the most common Web site attacks partly because these vulnerabilities are extremely widespread. According to <a title="http://www.imperva.com/docs/HII_Web_Application_Attack_Report_Ed4.pdf" href="http://www.imperva.com/docs/HII_Web_Application_Attack_Report_Ed4.pdf" target="_blank">a report</a> (PDF) released earlier this year from Web site security firm <strong>Imperva</strong> (full disclosure: Imperva is an advertiser on this site), while most Web applications receive four or more attack campaigns each month, some Websites are constantly under attack &#8212; particularly Web apps at retail sites.</p>
+<div id="attachment_23968" style="width: 610px" class="wp-caption aligncenter"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/3a.png"><img class="size-large wp-image-23968" alt="Sites browsed by hacked PCs (left) and SQL injection flaws found by the botnet (masked, right)" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/3a-600x460.png" width="600" height="460" /></a><p class="wp-caption-text">Sites browsed by hacked PCs (left) and SQL injection flaws found by the botnet (masked, right)</p></div>
+<p>Botnets like this one are a great and classic example of how compromised systems are nearly always used to chip away at the defenses of others online. Interestingly, there is <a title="https://addons.mozilla.org/en-US/firefox/addon/sql-inject-me/" href="https://addons.mozilla.org/en-US/firefox/addon/sql-inject-me/" target="_blank">a legitimate add-on for Firefox</a> that can help passively detect SQL injection vulnerabilities on sites you visit. Site owners looking for a free tool to scan their sites for SQL vulnerabilities should check out <a title="http://sqlmap.org/" href="http://sqlmap.org/" target="_blank">SQLmap</a>, an open source penetration testing tool.</p>
+<p><strong>Update, 6:17 p.m. ET: </strong>Mozilla has issued a statement saying that it has &#8220;disabled the fraudulent Microsoft .NET Framework Assistant add-on used by the Advanced Power botnet,&#8221; by <a title="https://addons.mozilla.org/en-US/firefox/blocked/i508" href="https://addons.mozilla.org/en-US/firefox/blocked/i508" target="_blank">adding the bogus add-on to its block list</a>. Mozilla said Firefox gets a message during a check for blocked add-ons once a day &#8212; while the browser is running &#8212; and that the block does not require any user actions to take effect.</p>
+<p><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/mozblock.png"><img class="aligncenter size-large wp-image-23997" alt="mozblock" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/mozblock-600x321.png" width="600" height="321" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/botnet-enlists-firefox-users-to-hack-web-sites/feed/</wfw:commentRss>
+		<slash:comments>51</slash:comments>
+		</item>
+		<item>
+		<title>Hacked Via RDP: Really Dumb Passwords</title>
+		<link>http://krebsonsecurity.com/2013/12/hacked-via-rdp-really-dumb-passwords/</link>
+		<comments>http://krebsonsecurity.com/2013/12/hacked-via-rdp-really-dumb-passwords/#comments</comments>
+		<pubDate>Fri, 13 Dec 2013 15:18:15 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[makost]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[RDP]]></category>
+		<category><![CDATA[remote desktop protocol]]></category>
+		<category><![CDATA[Trustwave]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=23713</guid>
+		<description><![CDATA[Businesses spend billions of dollars annually on software and hardware to block external cyberattacks, but a shocking number of these same organizations shoot themselves in the foot by poking gaping holes in their digital defenses and then advertising those vulnerabilities to attackers. Today's post examines an underground service which rents access to hacked PCs at organizations that make this all-too-common mistake.]]></description>
+				<content:encoded><![CDATA[<p>Businesses spend billions of dollars annually on software and hardware to block external cyberattacks, but a shocking number of these same organizations shoot themselves in the foot by poking gaping holes in their digital defenses and then advertising those vulnerabilities to attackers. Today&#8217;s post examines an underground service that rents access to hacked PCs at organizations that make this all-too-common mistake.</p>
+<p>Makost[dot]net is a service advertised on cybercrime forums which sells access to &#8220;RDPs&#8221;, mainly <strong>Microsoft Windows</strong> systems that have been configured (poorly) to accept &#8220;<strong>R</strong>emote <strong>D</strong>esktop <strong>P</strong>rotocol&#8221; connections from the Internet. Windows ships with its own RDP interface built-in; to connect to another Windows desktop or server remotely, simply fire up the <a title="http://windows.microsoft.com/en-us/windows7/products/features/remote-desktop-connection" href="http://windows.microsoft.com/en-us/windows7/products/features/remote-desktop-connection" target="_blank">Remote Desktop Connection</a> utility in Windows, type in the Internet address of the remote system, and enter the correct username and password for a valid user account on that remote system. Once the connection is made, you&#8217;ll see the remote computer&#8217;s desktop as if you were sitting right in front of it, and have access to all its programs and files.</p>
+<div id="attachment_23909" style="width: 610px" class="wp-caption aligncenter"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/rdps-1.png"><img class="size-large wp-image-23909" alt="Makhost[dot]net sells access to thousands of hacked RDP installations. Prices range from $3 to $10 based on a variety of qualities, such as the number of CPUs, the operating system version and the PC's upload and download speeds." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/rdps-1-600x348.png" width="600" height="348" /></a><p class="wp-caption-text"><br />Makhost[dot]net sells access to thousands of hacked RDP installations. Prices range from $3 to $10 based on a variety of qualities, such as the number of CPUs, the operating system version and the PC&#8217;s upload and download speeds.</p></div>
+<p>Makost currently is selling access to more than 6,000 compromised RDP installations worldwide. As we can see from the screen shot above, hacked systems are priced according to a combination of qualities of the server:</p>
+<ul>
+<li>city, state, country of host;</li>
+<li>administrative or regular user rights;</li>
+<li>operating system version;</li>
+<li>number and speed of computer processors;</li>
+<li>amount of system memory;</li>
+<li>network download and upload speeds;</li>
+<li><a title="http://en.wikipedia.org/wiki/Network_address_translation" href="http://en.wikipedia.org/wiki/Network_address_translation" target="_blank">NAT</a> or direct</li>
+</ul>
+<p>KrebsOnSecurity was given a glimpse inside the account of a very active user of this service, an individual who has paid more than $2,000 over the past six months to purchase some 425 hacked RDPs. I took the Internet addresses in this customer&#8217;s purchase history and ran WHOIS database lookups on them all in a bid to learn more about the victim organizations. As expected, roughly three-quarters of those addresses told me nothing about the victims; the addresses were assigned to residential or commercial Internet service providers.</p>
+<p>But the WHOIS records turned up the names of businesses for approximately 25 percent of the addresses I looked up. The largest group of organizations on this list were in the manufacturing (21 victims) and retail services (20) industries. As I sought to categorize the long tail of other victim organizations, I was reminded of the <a title="http://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)" href="http://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)" target="_blank">Twelve Days of Christmas carol</a>.</p>
+<p>twelve healthcare providers;<br />
+ten education providers;<br />
+eight government agencies;<br />
+seven technology firms;<br />
+six insurance companies;<br />
+five law firms;<br />
+four financial institutions;<br />
+three architects;<br />
+two real estate firms;<br />
+and a forestry company (in a pear tree?)</p>
+<p><span id="more-23713"></span></p>
+<p>How did these companies end up for sale on makost[dot]net? That is explained deftly in a report produced earlier this year by <a title="http://www.trustwave.com" href="http://www.trustwave.com" target="_blank">Trustwave</a>, a company which frequently gets called in when companies experience a data breach that exposes credit card information. Trustwave looked at all of the breaches it responded to in 2012 and found &#8212; just as in years past &#8212; &#8220;IP remote access remained the most widely used method of infiltration in 2012. Unfortunately for victim organizations, the front door is still open.&#8221;</p>
+<p>The report continues:</p>
+<p>&#8220;Organizations that use third-party support typically use remote access applications like Terminal Services (termserv) or Remote Desktop Protocol (RDP), pcAnywhere, Virtual Network Client (VNC), LogMeIn or Remote Administrator to access their customers&#8217; systems. If these utilities are left enabled, attackers can access them as though they are legitimate system administrators.&#8221;</p>
+<div id="attachment_23912" style="width: 295px" class="wp-caption alignright"><a class="lightbox" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/trustreport.png"><img class="size-medium wp-image-23912" alt="Source: Trustwave 2013 Global Security Report" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/trustreport-285x256.png" width="285" height="256" /></a><p class="wp-caption-text">Source: Trustwave 2013 Global Security Report</p></div>
+<p>&#8220;Would-be attackers simply scan blocks of Internet addresses looking for hosts that respond to queries on one of these ports. Once they have a focused target list of Internet addresses with open remote administration ports, they can move on to the next part of the attack: The number 2 most-exploited weakness: deafult/weak credentials.&#8221;</p>
+<p>In case the point wasn&#8217;t clear enough yet, I&#8217;ve gathered all of the username and password pairs picked by all 430 RDP-enabled systems that were sold to this miscreant. As evidenced by the list below, the attackers simply needed to scan the Internet for hosts listening on port 3389 (Microsoft RDP), identify valid usernames, and then try the same username as the password. In each of the following cases, the username and password are the same.</p>
+<p>Some of these credential pairs even give you an idea of the type of organization involved, the employee account that was compromised (&#8220;intern,&#8221; &#8220;techsupport,&#8221;); the purpose of the hacked system (&#8220;payroll&#8221;, &#8220;fax,&#8221; &#8220;scanner,&#8221; &#8220;timeclock&#8221;); even the geographic location of the compromised PC within the organization (e.g., &#8220;front desk,&#8221; &#8220;conference room,&#8221; &#8220;garage&#8221;). Incredibly, some of the systems appear to be named after actual security features or backup devices (&#8220;symantec,&#8221; &#8220;sonicwall,&#8221; &#8220;sophos&#8221;):</p>
+<p>owner owner<br />
+showroom showroom<br />
+operations operations<br />
+train train<br />
+test test<br />
+colin colin<br />
+robert robert<br />
+install install<br />
+besadmin besadmin<br />
+tony tony<br />
+guest guest<br />
+symantec symantec<br />
+stacey stacey<br />
+stephanie stephanie<br />
+jessica jessica<br />
+install install<br />
+frontdesk frontdesk<br />
+sophos sophos<br />
+tim tim<br />
+lisa lisa<br />
+guest guest<br />
+guest guest<br />
+timeclock timeclock<br />
+dale dale<br />
+djohnson djohnson<br />
+john john<br />
+staff staff<br />
+student student<br />
+cw cw<br />
+guest guest<br />
+inventory inventory<br />
+aspnet aspnet<br />
+scanner scanner<br />
+tablet1 tablet1<br />
+timeclock timeclock<br />
+rsmith rsmith<br />
+tara tara<br />
+gary gary<br />
+user user<br />
+billing1 billing1<br />
+shipping1 shipping1<br />
+warehouse warehouse<br />
+scott scott<br />
+cnc cnc<br />
+training training<br />
+personnel personnel<br />
+template template<br />
+training training<br />
+faxserver faxserver<br />
+nicole nicole<br />
+sales sales<br />
+jbrown jbrown<br />
+driver driver<br />
+ksmith ksmith<br />
+sys sys<br />
+engineering engineering<br />
+gking gking<br />
+guest guest<br />
+kclark kclark<br />
+kwebb kwebb<br />
+guest1 guest1<br />
+robert robert<br />
+AdMiNiStRaToR AdMiNiStRaToR<br />
+ipad ipad<br />
+rae rae<br />
+canon canon<br />
+shipping shipping<br />
+fax fax<br />
+remote1 remote1<br />
+mission mission<br />
+reporter reporter<br />
+dispatch dispatch<br />
+guard guard<br />
+rm rm<br />
+marcia marcia<br />
+sales sales<br />
+makik makik<br />
+kbrown kbrown<br />
+kbrown kbrown<br />
+ray ray<br />
+jrobinson jrobinson<br />
+shop shop<br />
+remote remote<br />
+dharris dharris<br />
+user user<br />
+bkexec bkexec<br />
+cmm cmm<br />
+toolcrib toolcrib<br />
+test test<br />
+temp temp<br />
+sbrown sbrown<br />
+dispatch dispatch<br />
+carpet carpet<br />
+laura laura<br />
+techsupport techsupport<br />
+bkexec bkexec<br />
+ganderson ganderson<br />
+buexec buexec<br />
+twadmin twadmin<br />
+acs acs<br />
+acs acs<br />
+bkexec bkexec<br />
+testu testu<br />
+bookkeeper bookkeeper<br />
+rtcservice rtcservice<br />
+jcampbell jcampbell<br />
+mlee mlee<br />
+email email<br />
+owner owner<br />
+bethb bethb<br />
+sisadmin sisadmin<br />
+cmartinez cmartinez<br />
+beadmin beadmin<br />
+mattp mattp<br />
+conf conf<br />
+prod prod<br />
+ws ws<br />
+jackie jackie<br />
+tempadmin tempadmin<br />
+install install<br />
+support support<br />
+wendy wendy<br />
+ricoh ricoh<br />
+simmons simmons<br />
+agarcia agarcia<br />
+jens jens<br />
+prod prod<br />
+timeclock timeclock<br />
+specialist specialist<br />
+christine christine<br />
+training training<br />
+sqlexec sqlexec<br />
+production production<br />
+testuser testuser<br />
+garage garage<br />
+sms sms<br />
+ldap ldap<br />
+sharepoint sharepoint<br />
+epicor epicor<br />
+epicor epicor<br />
+sandy sandy<br />
+resource resource<br />
+carrie carrie<br />
+nancy nancy<br />
+remote remote<br />
+lisa lisa<br />
+sales sales<br />
+kristina kristina<br />
+facilities facilities<br />
+erika erika<br />
+seagate seagate<br />
+mmills mmills<br />
+checkout checkout<br />
+susan susan<br />
+peter peter<br />
+insurance insurance<br />
+Administrator Administrator<br />
+maureen maureen<br />
+mike mike<br />
+training training<br />
+av av<br />
+schedule schedule<br />
+brad brad<br />
+timeclock timeclock<br />
+awilson awilson<br />
+spadmin spadmin<br />
+cecilia cecilia<br />
+renee renee<br />
+fax fax<br />
+sonny sonny<br />
+joey joey<br />
+caroot caroot<br />
+xray xray<br />
+dallen dallen<br />
+triage triage<br />
+ewilliams ewilliams<br />
+djordan djordan<br />
+clerk clerk<br />
+danny danny<br />
+bkupexec bkupexec<br />
+bu bu<br />
+monroe monroe<br />
+mmiller mmiller<br />
+seagate seagate<br />
+mmurray mmurray<br />
+recruiting recruiting<br />
+jsmith jsmith<br />
+jwilson jwilson<br />
+buexec buexec<br />
+mikeg mikeg<br />
+jking jking<br />
+bobc bobc<br />
+caroot caroot<br />
+kronos kronos<br />
+jgreen jgreen<br />
+bkupexec bkupexec<br />
+lab lab<br />
+jaime jaime<br />
+davidf davidf<br />
+kronos kronos<br />
+xray xray<br />
+rbrown rbrown<br />
+bizhub bizhub<br />
+julie julie<br />
+bec bec<br />
+checkout checkout<br />
+tuser tuser<br />
+bjohnson bjohnson<br />
+jbox jbox<br />
+dataentry dataentry<br />
+itsupport itsupport<br />
+sharepoint sharepoint<br />
+pc pc<br />
+volunteer volunteer<br />
+mail mail<br />
+konica konica<br />
+mill mill<br />
+canon canon<br />
+volunteer volunteer<br />
+heidi heidi<br />
+carla carla<br />
+tracy tracy<br />
+frontdesk frontdesk<br />
+driver driver<br />
+operations operations<br />
+trainer trainer<br />
+accounts accounts<br />
+labuser labuser<br />
+production production<br />
+jsmith jsmith<br />
+sup890 sup890<br />
+installer installer<br />
+help help<br />
+intern intern<br />
+la la<br />
+timeclock timeclock<br />
+confrm confrm<br />
+assembly assembly<br />
+john john<br />
+spadmin spadmin<br />
+jdoe jdoe<br />
+bloomberg bloomberg<br />
+resume resume<br />
+attach attach<br />
+assembly assembly<br />
+faxes faxes<br />
+faxes faxes<br />
+aevans aevans<br />
+tjones tjones<br />
+dbagent dbagent<br />
+Scanner Scanner<br />
+frontoffice frontoffice<br />
+Billing Billing<br />
+Nurse Nurse<br />
+MS MS<br />
+buexec buexec<br />
+xray xray<br />
+joan joan<br />
+frontdesk frontdesk<br />
+bkupexec bkupexec<br />
+kjohnson kjohnson<br />
+marcia marcia<br />
+kbrown kbrown<br />
+str str<br />
+awilliams awilliams<br />
+lsmith lsmith<br />
+voicemail voicemail<br />
+lsmith lsmith<br />
+wilkerson wilkerson<br />
+wilkerson wilkerson<br />
+wilkerson wilkerson<br />
+faxadmin faxadmin<br />
+faxadmin faxadmin<br />
+faxadmin faxadmin<br />
+vismail vismail<br />
+aspuser aspuser<br />
+jh jh<br />
+pmartin pmartin<br />
+tammy tammy<br />
+melanie melanie<br />
+mfg mfg<br />
+dwright dwright<br />
+sharepoint sharepoint<br />
+mobile mobile<br />
+forms forms<br />
+conference conference<br />
+examroom examroom<br />
+insurance insurance<br />
+confroom confroom<br />
+archiver archiver<br />
+Production Production<br />
+restore restore<br />
+Email Email<br />
+export export<br />
+Payroll Payroll<br />
+schulung schulung<br />
+tablet tablet<br />
+temp temp<br />
+cci cci<br />
+michele michele<br />
+jimm jimm<br />
+techsupport techsupport<br />
+exadmin exadmin<br />
+randerson randerson<br />
+ecopy ecopy<br />
+triage triage<br />
+ecopy ecopy<br />
+pool pool<br />
+jcampbell jcampbell<br />
+labcorp labcorp<br />
+jtaylor jtaylor<br />
+dmartin dmartin<br />
+markd markd<br />
+rsvp rsvp<br />
+beadmin beadmin<br />
+ataylor ataylor<br />
+police police<br />
+backup backup<br />
+template template<br />
+presentation presentation<br />
+setup setup<br />
+jeffm jeffm<br />
+spiceworks spiceworks<br />
+labcorp labcorp<br />
+croom croom<br />
+vorlage vorlage<br />
+summit summit<br />
+exchange exchange<br />
+user2 user2<br />
+corpconf corpconf<br />
+exadmin exadmin<br />
+rrobinson rrobinson<br />
+tserver tserver<br />
+faxes faxes<br />
+faxes faxes<br />
+cmm cmm<br />
+west west<br />
+shipping shipping<br />
+SYSTRAY SYSTRAY<br />
+scanuser scanuser<br />
+besadmin besadmin<br />
+davidm davidm<br />
+labcorp labcorp<br />
+cnc cnc<br />
+faxes faxes<br />
+faxes faxes<br />
+assist assist<br />
+toshiba toshiba<br />
+labcorp labcorp<br />
+exadmin exadmin<br />
+tadmin tadmin<br />
+resumes resumes<br />
+resumes resumes<br />
+scan1 scan1<br />
+shipping shipping<br />
+adminsch adminsch<br />
+exchangeadmin exchangeadmin<br />
+debbie debbie<br />
+edi edi<br />
+kate kate<br />
+exam exam<br />
+exam2 exam2<br />
+workstation2 workstation2<br />
+trainer2 trainer2<br />
+scanner scanner<br />
+cs cs<br />
+books books<br />
+katie katie<br />
+Chief Chief<br />
+ricoh ricoh<br />
+konica konica<br />
+laurie laurie<br />
+classroom classroom<br />
+pt pt<br />
+mill mill<br />
+staff2 staff2<br />
+research research<br />
+frontdesk frontdesk<br />
+dispatch2 dispatch2<br />
+pete pete<br />
+smiller smiller<br />
+Office Office<br />
+conference conference<br />
+bookkeeper bookkeeper<br />
+sales1 sales1<br />
+router router<br />
+user1 user1<br />
+fax fax<br />
+exchadmin exchadmin<br />
+stacy stacy<br />
+oncall oncall<br />
+postgres postgres<br />
+toolroom toolroom<br />
+backups backups<br />
+ricoh ricoh<br />
+confroom confroom<br />
+production production<br />
+jake jake<br />
+kitchen kitchen<br />
+client2 client2<br />
+archive archive<br />
+ws ws<br />
+delia delia<br />
+qbdataserviceuser qbdataserviceuser<br />
+brac brac<br />
+spd spd<br />
+sonicwall sonicwall<br />
+rec rec<br />
+itadmin itadmin<br />
+pack pack<br />
+volunteer volunteer<br />
+mail mail<br />
+printer printer<br />
+south south<br />
+testing testing<br />
+testing testing<br />
+parts parts<br />
+conferenceroom conferenceroom<br />
+voicemail voicemail<br />
+reports reports<br />
+parts parts<br />
+voicemail voicemail<br />
+shipping shipping<br />
+scanner scanner<br />
+training training<br />
+watchdog watchdog<br />
+amanda amanda<br />
+user4 user4<br />
+student1 student1<br />
+lo lo<br />
+jackie jackie<br />
+scan scan<br />
+classroom classroom<br />
+client1 client1<br />
+client1 client1</p>
+<p>If you&#8217;ve read this far, I hope it&#8217;s clear by now that the easiest way to get your systems hacked using RDP is to pick crappy credentials. Unfortunately, far too many organizations that end up for sale on services like this one are there because they outsourced their tech support to some third-party company that engages in this sort of sloppy security. Fortunately, a quick external port scan of your organization&#8217;s Internet address ranges should tell you if any RDP-equipped systems are enabled. <a title="https://security.berkeley.edu/node/94?destination=node/94" href="https://security.berkeley.edu/node/94?destination=node/94" target="_blank">Here are a few more tips</a> on locking down RDP installations.</p>
+<p>Readers who liked this story may also enjoy this piece &#8212; <a title="http://krebsonsecurity.com/2012/10/service-sells-access-to-fortune-500-firms/" href="http://krebsonsecurity.com/2012/10/service-sells-access-to-fortune-500-firms/" target="_blank">Service Sells Access to Fortune 500 Firms</a> &#8212; which examined a similar service for selling hacked RDP systems.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/hacked-via-rdp-really-dumb-passwords/feed/</wfw:commentRss>
+		<slash:comments>45</slash:comments>
+		</item>
+		<item>
+		<title>Help Bring Privacy Laws Into 21st Century</title>
+		<link>http://krebsonsecurity.com/2013/12/help-bring-privacy-laws-into-21st-century/</link>
+		<comments>http://krebsonsecurity.com/2013/12/help-bring-privacy-laws-into-21st-century/#comments</comments>
+		<pubDate>Wed, 11 Dec 2013 23:36:06 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Security Tools]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[CDT]]></category>
+		<category><![CDATA[Center for Democracy & Technology & Technology]]></category>
+		<category><![CDATA[ECPA]]></category>
+		<category><![CDATA[eff]]></category>
+		<category><![CDATA[Electronic Communications Privacy Act]]></category>
+		<category><![CDATA[Electronic Frontier Foundation]]></category>
+		<category><![CDATA[mark rasch]]></category>
+		<category><![CDATA[Mark Stanley]]></category>
+		<category><![CDATA[Rep. Bob Goodlatte]]></category>
+		<category><![CDATA[Sen. Patrick Leahy]]></category>
+		<category><![CDATA[Senator Edward J. Markey]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=23861</guid>
+		<description><![CDATA[Lost in the ongoing media firestorm over the National Security Agency's domestic surveillance activities is the discussion about concrete steps to bring the nation's communications privacy laws into the 21st Century. Under current laws that were drafted before the advent of the commercial Internet, federal and local authorities can gain access to mobile phone and many email records without a court-issued warrant. In this post, I'll explain what federal lawmakers and readers can do to help change the status quo.]]></description>
+				<content:encoded><![CDATA[<p>Lost in the ongoing media firestorm over the National Security Agency&#8217;s domestic surveillance activities is the discussion about concrete steps to bring the nation&#8217;s communications privacy laws into the 21st Century. Under current laws that were drafted before the advent of the commercial Internet, federal and local authorities can gain access to mobile phone and many email records without a court-issued warrant. In this post, I&#8217;ll explain what federal lawmakers and readers can do to help change the status quo [tl;dr: if you'd rather skip the explanation and go right to the What Can You Do? section, click <a href="http://krebsonsecurity.com/2013/12/help-bring-privacy-laws-into-21st-century/#foot_note_1">here</a>] <strong><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/cloudprivacy.jpg"><img class="alignright size-medium wp-image-23893" alt="cloudprivacy" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/cloudprivacy-285x206.jpg" width="285" height="206" /></a></strong></p>
+<p><strong>The Center for Democracy &amp; Technology</strong>, a policy think-tank based in Washington, D.C., has <a title="https://www.cdt.org/issue/wiretap-ecpa" href="https://www.cdt.org/issue/wiretap-ecpa" target="_blank">a concise and informative primer</a> on the <a title="http://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act" href="http://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act" target="_blank">Electronic Communications Privacy Act</a> (ECPA), the 1986 statute that was originally designed to protect Americans from Big Brother and from government overreach. Unfortunately, the law is now so outdated that it actually provides legal cover for the <a title="https://www.eff.org/deeplinks/2013/05/5-overlooked-lessons-justice-depts-leak-investigations" href="https://www.eff.org/deeplinks/2013/05/5-overlooked-lessons-justice-depts-leak-investigations" target="_blank">very sort of overreach it was designed to prevent</a>.</p>
+<p>Online messaging was something of a novelty when lawmakers were crafting the ECPA, which gave email moving over the network essentially the same protection as a phone call or postal letter. In short, it required the government to obtain a court-approved warrant to gain access to that information. But the Justice Department wanted different treatment for stored electronic communications. (Bear in mind that this was way before anyone was talking about &#8220;cloud&#8221; storage; indeed CDT notes that electronic storage of digital communications in 1986 was quite expensive, and it wasn&#8217;t unusual for email providers to delete messages that were more than a few months old).</p>
+<p>CDT explains the bargain that was struck to accommodate the government&#8217;s concerns:</p>
+<p>&#8220;Congress said that after 180 days email would no longer be protected by the warrant standard and instead would be available to the government with a subpoena, issued by a prosecutor or FBI agent without the approval of a judge,&#8221; CDT wrote. &#8220;At the same time, Congress concluded that, while the contents of communications must be highly protected in transit, the &#8216;transactional data&#8217; associated with communications, such as dialing information showing what numbers you are calling, was less sensitive. ECPA allowed the government to use something less than a warrant to obtain this routing and signaling information.&#8221;</p>
+<p>Fast-forward to almost 2014, and we find of course that most people store their entire digital lives &#8220;in the cloud.&#8221; This includes not only email, but calendar data, photos and other sensitive information. Big cloud providers like <strong>Google</strong>, <strong>Microsoft</strong> and <strong>Yahoo!</strong> have given users so much free storage space that hardly anyone has cause to delete their stuff anymore. Not only that, but pretty much everyone is carrying a mobile phone that can be used to track them and paint a fairly detailed account of their daily activities.</p>
+<p>But here&#8217;s the thing that&#8217;s screwy about ECPA: If you&#8217;re the kind of person who stores all that information on your laptop, the government can&#8217;t get at it without a court-ordered warrant. Leave it in the hands of email, mobile and cloud data providers, however, and it&#8217;s relatively easy pickings for investigators.</p>
+<p>&#8220;There has been an interpretation of the law from the government that says any document stored in the cloud can be accessed with a subpoena, regardless of how old it is,&#8221; said <strong>Mark Stanley</strong>, a communications strategist with CDT. &#8220;The government can access emails over 180 days old with just a subpoena. &#8220;We also know that the [Justice Department] has interpreted the law to say that any emails that are opened — regardless of how old they are — can be accessed without a warrant.&#8221;</p>
+<p><span id="more-23861"></span> Just how easy is it to get an administrative subpoena? <strong>Mark Rasch</strong>, a Bethesda, Md. lawyer and former Justice Department prosecutor, said administrative subpoenas (which don&#8217;t need a sign-off from a judge and allow investigators to seek information without any external check) are extremely easy to get and to serve. The problem, he said, is that subpoenas place most of the burden on the recipient of the request.</p>
+<p>&#8220;When you subpoena a third party, that third party has fundamentally no ability to challenge the request, because they don&#8217;t know if the request is relevant to the investigation or not,&#8221; Rasch said. &#8220;As a result, it&#8217;s in the submitter&#8217;s best interest to make the request as broad as possible in the hopes that it will turn up something that&#8217;s relevant to the investigation.&#8221;</p>
+<p>Take the hypothetical case of a subpoena that directs a free Webmail provider to turn over all of the Web browsing and email records of a specific customer for an entire year. Is that provider willing or able to pass the costs of complying with that request on to the consumer? In the vast majority of cases, Rasch said, it doesn&#8217;t make economic sense for the provider to challenge these subpoenas, so they simply comply.</p>
+<p>Updating ECPA would mean that before prosecutors or other lawyers can get this information, they would have to make an argument to a court about what information they&#8217;re seeking and how it&#8217;s relevant to an investigation, Rasch said.</p>
+<p>&#8220;The idea is that before you can get an order to produce certain information, you&#8217;d have to do a little &#8216;mother, may I?&#8217; Rasch said.</p>
+<p>It not clear how many subpoenas are sent to email providers each year seeking customer records, but we recently got some sense of how frequently government investigators are asking for mobile device records. <strong>Senator Edward J. Markey</strong> (D-Mass.) asked this question of seven major wireless carriers, including <strong>AT&amp;T</strong>, <strong>Verizon Wireless</strong>, <strong>Sprint</strong> and <strong>T-Mobile</strong>.</p>
+<p>As <em>The New York Times</em> wrote on Dec. 9, the response from the carriers shows that last year they answered at least 1.1 million requests from law enforcement agencies seeking information on caller locations, text messages and other data for use in investigations. &#8220;Most of the requests were for information from a specific customer account,&#8221; The Times <a title="http://www.nytimes.com/2013/12/09/technology/a-senator-plans-legislation-to-narrow-authorities-cellphone-data-requests.html?_r=0" href="http://www.nytimes.com/2013/12/09/technology/a-senator-plans-legislation-to-narrow-authorities-cellphone-data-requests.html?_r=0" target="_blank">wrote</a>. &#8220;But law enforcement agencies also received information from 9,000 so-called tower dumps, in which the agencies were granted access to data from all the phones that connected to a cell site during a specific period of time.&#8221;</p>
+<p>Lawmakers in the House and Senate have introduced companion bills that would require law enforcement agencies to get a court-ordered probable-cause warrant to obtain email and other content stored in the cloud. The Senate Judiciary Committee has approved <a title="http://thomas.loc.gov/cgi-bin/query/D?c113:2:./temp/~c113hdot45::" href="http://thomas.loc.gov/cgi-bin/query/D?c113:2:./temp/~c113hdot45::" target="_blank">S. 607</a>, a bill sponsored by the committee&#8217;s chairman, <strong>Sen. Patrick Leahy</strong> (D-Vt.), but the measure hasn&#8217;t yet progressed to the Senate floor for a vote.</p>
+<p>In the House, <a title="http://thomas.loc.gov/cgi-bin/query/z?c113:H.R.1852:" href="http://thomas.loc.gov/cgi-bin/query/z?c113:H.R.1852:" target="_blank">H.R. 1852</a> has broad bipartisan support (110 Republicans and 47 Democratic co-sponsors at last count). Speaking on background, an aide to the House Judiciary Committee said the panel&#8217;s chairman, <strong>Rep. Bob Goodlatte</strong> (R-Va.), has been &#8220;aggressively meeting with stakeholders and several outside groups- including privacy advocates, industry and law enforcement &#8212; to identify ECPA reform priorities and geolocation privacy standards.&#8221; No word, however, on when the full committee might consider the House bill.</p>
+<p>Interestingly, the effort bring ECPA&#8217;s protections into the digital age even has the support of the Justice Department. Testifying at a hearing in the House in May 2013,<strong> U.S. Attorney General Eric Holder</strong> said the DOJ supports the &#8220;general notion of having a warrant to obtain the content of communications from a service provider.&#8221; As <em>The Hill</em> <a title="http://thehill.com/blogs/hillicon-valley/technology/300011-holder-backs-warrant-requirement-for-most-email-searches" href="http://thehill.com/blogs/hillicon-valley/technology/300011-holder-backs-warrant-requirement-for-most-email-searches" target="_blank">noted</a> at the time, Holder&#8217;s comments reiterate the department&#8217;s stated position taken earlier in the year, which found there was &#8220;no principled basis&#8221; for the 180 day distinction, and that legislation to expand ECPA&#8217;s protections has &#8220;considerable merit.&#8221;</p>
+<p>So why aren&#8217;t these changes the law of the land already, aside from the usual partisan gridlock? Unfortunately, said CDT&#8217;s Stanley, movement on ECPA reform is currently being blocked by a proposal from the <strong>U.S Securities and Exchange Commission</strong> (SEC), which wants a special carve-out in the bill for regulatory agencies to get communications from online providers without a warrant.</p>
+<p><a title="foot_note_1" name="foot_note_1"></a>WHAT CAN YOU DO?</p>
+<p>So what can readers do about all this? For starters, <a title="https://petitions.whitehouse.gov/petition/reform-ecpa-tell-government-get-warrant/nq258dxk" href="https://petitions.whitehouse.gov/petition/reform-ecpa-tell-government-get-warrant/nq258dxk" target="_blank">sign a petition</a> at the White House&#8217;s &#8220;We the People&#8221; site, asking the Obama administration to reform ECPA. The petition, which currently has more than 70,000 supporters but needs over 100,000 to force a response from the White House, calls on the administration to support ECPA reform and to &#8220;reject any special rules that would force online service providers to disclose our email without a warrant.&#8221;</p>
+<p>Also, get educated about which companies stand up for your privacy, and don&#8217;t patronize companies that fail to do so. For starters, check out the Electronic Frontier Foundation (EFF) <a href="https://www.eff.org/who-has-your-back-2013">2013 “Who Has Your Back” report</a>, which tracks several ways in which communications companies can help protect user privacy. EFF rates providers with zero to five stars, granting stars for things like promising to notify users about government demands for data whenever the company is not legally prevented from doing so. &#8220;Notably, Verizon does not have such a notification policy and did not receive a star,&#8221; the EFF notes. &#8220;In fact, Verizon was the only company to receive zero stars.&#8221; [In fairness, Apple, AT&amp;T and Yahoo! fared almost as poorly].</p>
+<p>Finally, consider using an email client &#8212; instead of just Webmail &#8212; and encrypt your communications. Wefightcensorship.org has <a title="https://www.wefightcensorship.org/article/sending-encrypted-emails-using-thunderbird-and-pgphtml.html" href="https://www.wefightcensorship.org/article/sending-encrypted-emails-using-thunderbird-and-pgphtml.html" target="_blank">a great primer</a> on how to do that, using Mozilla Thunderbird and PGP. <em>Ars Technica</em> recently published <a title="http://arstechnica.com/security/2013/06/encrypted-e-mail-how-much-annoyance-will-you-tolerate-to-keep-the-nsa-away/" href="http://arstechnica.com/security/2013/06/encrypted-e-mail-how-much-annoyance-will-you-tolerate-to-keep-the-nsa-away/" target="_blank">step-by-step instructions</a> for encrypting email on a PC or Mac.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/help-bring-privacy-laws-into-21st-century/feed/</wfw:commentRss>
+		<slash:comments>35</slash:comments>
+		</item>
+		<item>
+		<title>Zero-Day Fixes From Adobe, Microsoft</title>
+		<link>http://krebsonsecurity.com/2013/12/zero-day-fixes-from-adobe-microsoft/</link>
+		<comments>http://krebsonsecurity.com/2013/12/zero-day-fixes-from-adobe-microsoft/#comments</comments>
+		<pubDate>Tue, 10 Dec 2013 20:27:30 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[adobe]]></category>
+		<category><![CDATA[Attila Suszter]]></category>
+		<category><![CDATA[Flash Player 11.9.900.170]]></category>
+		<category><![CDATA[Flash zero day]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[MS13-096]]></category>
+		<category><![CDATA[MS13-097]]></category>
+		<category><![CDATA[MS13-099]]></category>
+		<category><![CDATA[MS13-104]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<category><![CDATA[Ross Barrett]]></category>
+		<category><![CDATA[Shockwave 12.0.7.148]]></category>
+		<category><![CDATA[Windows zero-day]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=23851</guid>
+		<description><![CDATA[Adobe and Microsoft today each separately released security updates to remedy zero-day bugs and other critical vulnerabilities in their software. Adobe issued fixes for its Flash and Shockwave players, while Microsoft pushed out 11 updates addressing addressing at least two dozen flaws in Windows and other software.]]></description>
+				<content:encoded><![CDATA[<p><strong>Adobe</strong> and <strong>Microsoft</strong> today each separately released security updates to remedy zero-day bugs and other critical vulnerabilities in their software. Adobe issued fixes for its <strong>Flash</strong> and <strong>Shockwave</strong> players, while Microsoft pushed out 11 updates addressing at least two dozen flaws in <strong>Windows</strong> and other software.</p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/04/crackedwin.png"><img class="alignright size-full wp-image-19861" alt="crackedwin" src="http://krebsonsecurity.com/wp-content/uploads/2013/04/crackedwin.png" width="212" height="251" /></a>Five of today&#8217;s 11 update bundles earned Microsoft&#8217;s &#8220;critical&#8221; rating, meaning that the vulnerabilities those patches fix can be exploited remotely by malware or miscreants without any help from users. At the top of the priority list for Windows users should be <a title="http://technet.microsoft.com/en-us/security/bulletin/ms13-096" href="http://technet.microsoft.com/en-us/security/bulletin/ms13-096" target="_blank">MS13-096</a>, a patch that plugs a critical zero-day security hole in certain versions of Windows and <strong>Office. </strong>Microsoft <a title="http://krebsonsecurity.com/2013/11/microsoft-warns-of-zero-day-attack-on-office/" href="http://krebsonsecurity.com/2013/11/microsoft-warns-of-zero-day-attack-on-office/" target="_blank">first warned about this flaw on Nov. 5</a>.</p>
+<p>Microsoft also is urging customers and system administrators to prioritize two other critical fixes:  <a title="http://technet.microsoft.com/en-us/security/bulletin/ms13-097" href="http://technet.microsoft.com/en-us/security/bulletin/ms13-097" target="_blank">MS13-097</a>, a cumulative patch for <strong>Internet Explorer</strong> (all versions), and <a title="http://technet.microsoft.com/en-us/security/bulletin/ms13-099" href="http://technet.microsoft.com/en-us/security/bulletin/ms13-099" target="_blank">MS13-099</a>, which fixes a dangerous scripting issue in Windows. All three of these patches fix bugs that Microsoft says are likely to be exploited by attackers in the near future.</p>
+<p><strong>Ross Barrett</strong>, senior manager of security engineering at <a title="http://www.rapid7.com" href="http://www.rapid7.com" target="_blank">Rapid7</a>, points out a noteworthy patch (<a title="http://technet.microsoft.com/en-us/security/bulletin/ms13-104" href="http://technet.microsoft.com/en-us/security/bulletin/ms13-104" target="_blank">MS13-104</a>) for users of Microsoft Office 2013&#8242;s &#8220;cloud&#8221; services, which apparently fixes another vulnerability that is actively being exploited. &#8220;This information disclosure issue affects the Office &#8216;client&#8217; and could allow an attacker to hijack an authentication token and gain access to documents stored in cloud resources,&#8221; Barrett said.</p>
+<p>For more information on today&#8217;s updates, see the roundups at <a title="http://blogs.technet.com/b/msrc/archive/2013/12/10/omphaloskepsis-and-the-december-2013-security-update-release.aspx" href="http://blogs.technet.com/b/msrc/archive/2013/12/10/omphaloskepsis-and-the-december-2013-security-update-release.aspx" target="_blank">Microsoft&#8217;s Technet Blog</a>, the <a title="http://isc.sans.org/forums/diary/Microsoft+December+Patch+Tuesday/17198" href="http://isc.sans.org/forums/diary/Microsoft+December+Patch+Tuesday/17198" target="_blank">SANS Internet Storm Center Diary</a>, and the <a title="https://community.qualys.com/blogs/laws-of-vulnerabilities/2013/12/10/year-closing--december-2013-patch-tuesday" href="https://community.qualys.com/blogs/laws-of-vulnerabilities/2013/12/10/year-closing--december-2013-patch-tuesday" target="_blank">Qualys blog</a>.</p>
+<p><span style="text-decoration: underline;"> ADOBE FLASH AND SHOCKWAVE UPDATES</span></p>
+<p>Adobe has issued <a title="http://helpx.adobe.com/security/products/flash-player/apsb13-28.html" href="http://helpx.adobe.com/security/products/flash-player/apsb13-28.html" target="_blank">a patch</a> for its Flash Player software that addresses at least two security holes, including a vulnerability that is already under active attack. Adobe said it is aware of reports of an exploit designed to trick the user into opening a Microsoft Word document with malicious Flash (.swf) content. The company credits researcher <strong>Attila Suszter</strong> for reporting the flaw; more information about this bug is available at <a title="http://reversingonwindows.blogspot.com/" href="http://reversingonwindows.blogspot.com/" target="_blank">Suszter&#8217;s blog</a>.</p>
+<p><span id="more-23851"></span></p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/02/brokenflash-a.png"><img class="alignleft size-full wp-image-18875" alt="brokenflash-a" src="http://krebsonsecurity.com/wp-content/uploads/2013/02/brokenflash-a.png" width="211" height="180" /></a>To find out whether your system has Flash installed and at what version, check <a title="http://helpx.adobe.com/flash-player/kb/find-version-flash-player.html" href="http://helpx.adobe.com/flash-player/kb/find-version-flash-player.html" target="_blank">this page</a>. Updates are available for Windows,<strong> Mac</strong> and <strong>Linux</strong> versions of Flash. The latest version for Windows and Mac users is <em>11.9.900.170</em>, and <em>11.2.202.332</em> for Linux.</p>
+<p>Google Chrome auto-updates its own versions of Flash (although not always right away); the newest Flash for Chrome is <em>11.9.900.170. </em><strong>Internet Explorer 10 </strong>and<strong> 11</strong> on <strong>Windows 8</strong> include an embedded version of Flash that gets updates from Windows Update, rather than through Adobe’s installer. On Windows 7 and earlier, Flash is not embedded, and needs ot be updated via Adobe&#8217;s updater or manually by downloading the appropriate version from <a title="http://www.adobe.com/products/flashplayer/distribution3.html" href="http://www.adobe.com/products/flashplayer/distribution3.html" target="_blank">this page</a>.</p>
+<p>In addition, <strong>Adode AIR</strong> (required by some applications like Pandora Desktop, for example) was updated to <em>v. 3.9.1380</em> for Windows, Mac and Android devices. Adobe AIR checks for and prompts you to install any available updates anytime you launch an application that uses AIR; in any case, the download link is <a title="http://get.adobe.com/air/" href="http://get.adobe.com/air/" target="_blank">here</a>.</p>
+<p>Adobe also issued <a title="http://helpx.adobe.com/security/products/shockwave/apsb13-29.html" href="http://helpx.adobe.com/security/products/shockwave/apsb13-29.html" target="_blank">an update</a> for its <strong>Shockwave Player</strong> software that fixes at least two vulnerabilities, bringing Shockwave to <em>v. 12.0.7.148</em> on Windows and Mac systems. Shockwave is one of those programs that I’ve urged readers to remove or avoid installing. Like Java, it is very often buggy software that many people have installed but do not really need for everyday Web browsing. Securing your system means not only <a title="http://krebsonsecurity.com/tools-for-a-safer-pc/" href="http://krebsonsecurity.com/tools-for-a-safer-pc/" target="_blank">making sure things are locked down</a>, but removing unneeded programs, and Shockwave is near the top of my list on that front.</p>
+<p>If you visit <a title="http://www.adobe.com/shockwave/welcome" href="http://www.adobe.com/shockwave/welcome" target="_blank">this link</a> and see a short animation, it should tell you which version of Shockwave you have installed. If it prompts you to download Shockwave, then you don’t have Shockwave installed and in all likelihood don’t need it. Firefox users should note that the presence of the Shockwave Flash plugin listed in the Firefox Add-ons section denotes an installation of Adobe Flash Player plugin — not Adobe Shockwave.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/zero-day-fixes-from-adobe-microsoft/feed/</wfw:commentRss>
+		<slash:comments>25</slash:comments>
+		</item>
+		<item>
+		<title>Who Is Paunch?</title>
+		<link>http://krebsonsecurity.com/2013/12/who-is-paunch/</link>
+		<comments>http://krebsonsecurity.com/2013/12/who-is-paunch/#comments</comments>
+		<pubDate>Mon, 09 Dec 2013 19:21:00 +0000</pubDate>
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+				<category><![CDATA[Breadcrumbs]]></category>
+		<category><![CDATA[360022]]></category>
+		<category><![CDATA[BlackHole Exploit Kit]]></category>
+		<category><![CDATA[box@neting.ru]]></category>
+		<category><![CDATA[Dmitry E. Fedotov]]></category>
+		<category><![CDATA[Fido20.ru]]></category>
+		<category><![CDATA[Paunch]]></category>
+		<category><![CDATA[paunchik@googlemail.com]]></category>
+		<category><![CDATA[puzan]]></category>
+		<category><![CDATA[Togliatti]]></category>
+		<category><![CDATA[tolst86@mail.ru]]></category>
+		<category><![CDATA[Webmoney ID 561656619879]]></category>
+		<category><![CDATA[Z356971281174]]></category>
+
+		<guid isPermaLink="false">http://krebsonsecurity.com/?p=23814</guid>
+		<description><![CDATA[Last week, the world got the first glimpses of a man Russian authorities have accused of being "Paunch," a computer crime kingpin whose "Blackhole" crimeware package has fueled an explosion of cybercrime over the past several years. So far, few details about the 27-year-old defendant have been released, save for some pictures of a portly lad and a list of his alleged transgressions. Today's post follows a few clues from recent media coverage that all point to one very likely identity for this young man. ]]></description>
+				<content:encoded><![CDATA[<p>Last week, the world got the first glimpses of a man Russian authorities have accused of being &#8220;<strong>Paunch</strong>,&#8221; a computer crime kingpin whose &#8220;Blackhole&#8221; crimeware package has fueled an explosion of cybercrime over the past several years. So far, few details about the 27-year-old defendant have been released, save for some pictures of a portly lad and a list of his alleged transgressions. Today&#8217;s post follows a few clues from recent media coverage that all point to one very likely identity for this young man.</p>
+<div id="attachment_23825" style="width: 295px" class="wp-caption alignright"><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/tolst-fido.png"><img class="size-medium wp-image-23825" alt="Dmitry Fedotov from Togliatti, Russia." src="http://krebsonsecurity.com/wp-content/uploads/2013/12/tolst-fido-285x225.png" width="285" height="225" /></a><p class="wp-caption-text">Dmitry Fedotov from Togliatti, Russia.</p></div>
+<p>The first story in the Western media about Paunch&#8217;s arrest came on <a title="http://www.reuters.com/article/2013/10/08/cybercrime-arrest-idUSL1N0HY26I20131008" href="http://www.reuters.com/article/2013/10/08/cybercrime-arrest-idUSL1N0HY26I20131008" target="_blank">Oct. 8, 2013 from Reuters</a>, which quoted an anonymous former Russian police detective.  But the initial news of Paunch&#8217;s arrest appears to have broken on Russian news blogs several days earlier. On Oct. 5, Russian news outlet <a title="http://nesluhi.livejournal.com/565289.html" href="http://nesluhi.livejournal.com/565289.html" target="_blank">neslushi.info</a> posted that a hacker by the name of <strong>Dmitry Fedotov</strong> had been arrested the night before in <a title="http://en.wikipedia.org/wiki/Tolyatti" href="http://en.wikipedia.org/wiki/Tolyatti" target="_blank">Togliatti</a>, a city in Samara Oblast, Russia. The story noted that Fedotov was wanted for creating a program that was used by various organized crime groups to siphon roughly 26 billion rubles (USD $866 million) from unnamed banks. Another <a title="http://samara.ru/read/56437" href="http://samara.ru/read/56437" target="_blank">story from local news site Samara.ru</a> on Oct. 8 references a Dmitry F. from Togliatti.</p>
+<p>This is an interesting lead; <a title="http://krebsonsecurity.com/2013/12/meet-paunch-the-accused-author-of-the-blackhole-exploit-kit/" href="http://krebsonsecurity.com/2013/12/meet-paunch-the-accused-author-of-the-blackhole-exploit-kit/" target="_blank">last week&#8217;s story on Paunch</a> cited information released by Russian forensics firm <strong>Group-IB</strong>, which did not include Paunch&#8217;s real name but said that he resided in Togliatti.</p>
+<p>Fast-forward to this past week, and we see out of the Russian publication Vedomosti.ru <a title="http://www.vedomosti.ru/tech/news/19787961/policiya-zaderzhala-vseh-soobschnikov-izvestnogo-hakera" href="http://www.vedomosti.ru/tech/news/19787961/policiya-zaderzhala-vseh-soobschnikov-izvestnogo-hakera" target="_blank">a story stating</a> that Paunch owned his own Web-development company. That story also cited Group-IB saying that Paunch had experience as an advertising manager. <a title="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ff-d3.moikrug.ru%2F%3Fnocookiesupport%3Dyes&amp;sandbox=1" href="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ff-d3.moikrug.ru%2F%3Fnocookiesupport%3Dyes&amp;sandbox=1" target="_blank">This Yandex profile</a> includes a resume for a Dmitry Fedotov from Togliatti who specializes in Web programming and advertising, and lists &#8220;hack money&#8221; under his &#8220;professional goals&#8221; section. It also states that Fedotov attended the <a title="http://www.tolgas.ru/" href="http://www.tolgas.ru/" target="_blank">Volga State University of Service</a> from 2003-2005.</p>
+<p>That Yandex profile for Fedotov says his company is a site called &#8220;<strong>neting.ru</strong>,&#8221; a Web development firm. The current Web site registration records for that domain do not include an owner&#8217;s name, but a historic WHOIS record ordered from <a title="http://www.domaintools.com" href="http://www.domaintools.com" target="_blank">domaintools.com</a> shows that neting.ru was originally registered in 2004 by a <strong>Dmitry E. Fedotov</strong>, using the email addresses <strong>box@neting.ru</strong> and<strong> tolst86@mail.ru</strong>.</p>
+<p>A <a title="https://web.archive.org/web/20060209120932oe_/http://neting.ru/about/contacts" href="https://web.archive.org/web/20060209120932oe_/http://neting.ru/about/contacts" target="_blank">cached contact page for neting.ru at archive.org</a> shows the same box@neting.ru email address and includes an ICQ instant messenger address, <strong>360022</strong>. According to <a title="http://www.icq.com/people/360022" href="http://www.icq.com/people/360022" target="_blank">ICQ.com</a>, that address belongs to a user who picked the nickname &#8220;<strong>tolst</strong>,&#8221; which roughly translates to &#8220;fatty.&#8221;</p>
+<div id="attachment_23837" style="width: 295px" class="wp-caption alignleft"><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/tolstporsche.png"><img class="size-medium wp-image-23837" alt="A user who picked the nickname &quot;tolst&quot; or &quot;fatty&quot; posted this image of his new Porsche Cayenne in March 2013" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/tolstporsche-285x206.png" width="285" height="206" /></a><p class="wp-caption-text">A user who picked the nickname &#8220;tolst&#8221; or &#8220;fatty&#8221; posted this image of his new Porsche Cayenne in March 2013</p></div>
+<p>This brings up something I want to address from last week&#8217;s story: Some readers said they thought it was insensitive of me to point out that Paunch himself called attention to his most obvious physical trait. But this seems to be a very important detail: Paunch had a habit of picking self-effacing nicknames.</p>
+<p>The <a title="http://www.group-ib.com/index.php/7-novosti/790-group-ib-assists-to-suppress-the-activities-of-a-blackhole-exploit-kit-author-paunch-is-arrestedq%22" href="http://www.group-ib.com/index.php/7-novosti/790-group-ib-assists-to-suppress-the-activities-of-a-blackhole-exploit-kit-author-paunch-is-arrestedq%22" target="_blank">pictures of Paunch</a> released by Group-IB show a heavyset young man, and Paunch seems to have picked nicknames that called attention to his size. One email address known to have been used by the Blackhole author was &#8220;paunchik@googlemail.com&#8221; (&#8220;paunchik&#8221; means &#8220;doughnut&#8221; in Russian). Blackhole exploit kit users who <a title="http://krebsonsecurity.com/2012/02/crimevertising-selling-into-the-malware-channel/" href="http://krebsonsecurity.com/2012/02/crimevertising-selling-into-the-malware-channel/" target="_blank">wished to place their advertisements in the crimeware kit itsel</a>f so that other customers would see the ads were instructed to pay for the advertisements by sending funds to a Webmoney purse Z356971281174, which is tied to the <a title="https://passport.webmoney.ru/asp/CertView.asp?wmid=561656619879" href="https://passport.webmoney.ru/asp/CertView.asp?wmid=561656619879" target="_blank">Webmoney ID 561656619879</a>; that Webmoney ID uses the alias &#8220;puzan,&#8221; a variant of the Russian word пузо, or &#8220;potbelly.&#8221;</p>
+<p>Turns out, &#8220;tolst&#8221; was a common nickname picked by Paunch. We can see a user who picked that same &#8220;tolst&#8221; nickname <a title="http://www.knclub.ru/f/thread28982-3.html" href="http://www.knclub.ru/f/thread28982-3.html" target="_blank">posting in a Russian car forum</a> in March 2013 about his new ride: a white Porsche Cayenne. According to <a title="http://krebsonsecurity.com/wp-content/uploads/2013/12/PaunchPorche-285x350.png" href="http://krebsonsecurity.com/wp-content/uploads/2013/12/PaunchPorche-285x350.png" target="_blank">this photo</a> released by Group-IB, Paunch also owned a white Porsche Cayenne. Tolst posted pictures of the interior of his Porsche <a title="http://www.knclub.ru/f/thread27314.html" href="http://www.knclub.ru/f/thread27314.html" target="_blank">here</a>.</p>
+<p><span id="more-23814"></span></p>
+<p>Neting.ru&#8217;s <a title="https://web.archive.org/web/20070902041359/http://www.neting.ru/about/faq?c2" href="https://web.archive.org/web/20070902041359/http://www.neting.ru/about/faq?c2" target="_blank">archived FAQ</a> points to <a title="https://web.archive.org/web/20070827231349/http://passport.webmoney.ru/asp/certview4.asp?wmid=918988599511" href="https://web.archive.org/web/20070827231349/http://passport.webmoney.ru/asp/certview4.asp?wmid=918988599511" target="_blank">an official payment page at virtual currency Webmoney</a>, which includes the name Dmitry E. Fedotov and the ICQ number 360022. That same Webmoney account shows up on <a title="http://wmid.name/" href="http://wmid.name/" target="_blank">wmid.name,</a> a site that lists account holders who have a reputation for being late with promised payments. The last account on the bottom of that page is an entry that lists the same Webmoney ID, along with <strong>Dmitry Evegeny Fedotov</strong>&#8216;s date of birth (Nov. 6, 1986), passport number (3606578837), and <a title="https://maps.google.com/maps?q=%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%B0+%D0%A0%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0+%D0%B4.+48+%D0%BA%D0%B2.+326+%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F&amp;hl=en&amp;ie=UTF8&amp;ll=53.510414,49.289024&amp;spn=0.005359,0.009645&amp;sll=38.003386,-79.420925&amp;sspn=7.269786,9.876709&amp;t=h&amp;hnear=prospekt+Stepana+Razina,+48,+326,+Tolyatti,+Samarskaya+oblast',+Russia,+445027&amp;z=17&amp;iwloc=A" href="https://maps.google.com/maps?q=%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%B0+%D0%A0%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0+%D0%B4.+48+%D0%BA%D0%B2.+326+%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F&amp;hl=en&amp;ie=UTF8&amp;ll=53.510414,49.289024&amp;spn=0.005359,0.009645&amp;sll=38.003386,-79.420925&amp;sspn=7.269786,9.876709&amp;t=h&amp;hnear=prospekt+Stepana+Razina,+48,+326,+Tolyatti,+Samarskaya+oblast',+Russia,+445027&amp;z=17&amp;iwloc=A" target="_blank">physical address</a>. It&#8217;s not clear when Fedotov was added to this list, but it&#8217;s possible he was simply unable to pay for promised transactions due to his early October arrest and detention.</p>
+<p><a href="http://krebsonsecurity.com/wp-content/uploads/2013/12/df-odno.png"><img class="alignright size-medium wp-image-23841" alt="df-odno" src="http://krebsonsecurity.com/wp-content/uploads/2013/12/df-odno-285x157.png" width="285" height="157" /></a>This <a title="http://www.odnoklassniki.ru/profile/328771447" href="http://www.odnoklassniki.ru/profile/328771447" target="_blank">Odnoklassniki profile</a> for a Dmitry Fedotov from Togliatti also puts his birthday at Nov. 6, and says he attended Volga State University of Service from 2003 to 2005.</p>
+<p>Early on, Fedotov appears to have made a living by writing and selling Web scripts for various online currency exchange sites. But by 2009, this young man was growing more interested in computer security &#8212; specifically Web browser vulnerabilities.</p>
+<p>The Web community <strong>Fido20.ru</strong> includes <a title="http://fido20.ru/tolst" href="http://fido20.ru/tolst" target="_blank">a member named &#8220;tolst&#8221; from Togliatti</a> who gives his name as Dmitry Fedotov and was very active in <a title="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ffido20.ru%2Fconference.php%3Fid%3D291" href="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ffido20.ru%2Fconference.php%3Fid%3D291" target="_blank">discussions about network security, privacy and hacking</a>.  In <a title="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ffido20.ru%2Fconference.php%3Fid%3D291%26subject%3D806%23begin" href="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ffido20.ru%2Fconference.php%3Fid%3D291%26subject%3D806%23begin" target="_blank">this post</a> from 2009 titled &#8220;Vulnerabilities in browsers and their plugin-ins,&#8221; Fedotov can be seen warning users about unspecified new vulnerabilities in Apple&#8217;s Quicktime and Microsoft&#8217;s DirectX versions 7 through 9.</p>
+<p>In <a title="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ffido20.ru%2Fconference.php%3Fid%3D291" href="http://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=http%3A%2F%2Ffido20.ru%2Fconference.php%3Fid%3D291" target="_blank">another thread</a>, Fedotov encourages the sharing of browser exploits and provides links to several vulnerability archives. He also tells fellow forums members that they are asking to get hacked if they leave various browser plugins activated.</p>
+<p>&#8220;As I have done before, I am asking all the users as well as IT Security professionals to disable all plug-ins and add-ons in their browsers,&#8221; Fedotov warned forum members. &#8220;Do not think that if you are not users of Internet money (web money), there is no danger of being infected. In this case, the infected PCs are turned into socks proxies, spam/ddos bots and all the bad activity is done under your name, so that law enforcement can place all the blame on your shoulders. Safe surfing and good luck to you.&#8221;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://krebsonsecurity.com/2013/12/who-is-paunch/feed/</wfw:commentRss>
+		<slash:comments>41</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Database Caching using memcached
+Object Caching 729/757 objects using memcached
+
+ Served from: krebsonsecurity.com @ 2013-12-22 21:26:32 by W3 Total Cache -->
